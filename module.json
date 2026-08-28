@@ -1,582 +1,1062 @@
 {
-    "topic_name": "Machine Learning",
-    "definition": "Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables systems to learn from data, identify patterns, and make decisions with minimal human intervention. It involves developing algorithms that can parse data, learn from it, and then make a prediction or decision.",
-    "sutopics": [
-        {
-            "subtopic_name": "Foundational Math & Programming",
-            "difficulty": "Low",
-            "definition": "This section covers the essential mathematical and programming prerequisites necessary to understand and implement machine learning algorithms effectively. A strong foundation here will make subsequent topics much easier to grasp.",
-            "topics": [
-                {
-                    "name": "Python Programming Basics",
-                    "difficulty": "Low",
-                    "definition": "Learn the fundamentals of Python, including data types, control flow, functions, and basic data structures like lists, dictionaries, and tuples. This is the primary language for most ML development.",
-                    "Links": "https://www.youtube.com/watch?v=rfscVS0vtbw",
-                    "articles": [
-                        "https://www.programiz.com/python-programming/",
-                        "https://realpython.com/python-first-steps/",
-                        "https://www.w3schools.com/python/"
-                    ]
-                },
-                {
-                    "name": "NumPy for Numerical Operations",
-                    "difficulty": "Low",
-                    "definition": "Understand NumPy, the fundamental package for numerical computation in Python. Learn about arrays, array operations, broadcasting, and vectorized computations, which are crucial for handling data in ML.",
-                    "Links": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
-                    "articles": [
-                        "https://numpy.org/doc/stable/user/quickstart.html",
-                        "https://realpython.com/numpy-tutorial/",
-                        "https://www.datacamp.com/community/tutorials/python-numpy-tutorial"
-                    ]
-                },
-                {
-                    "name": "Pandas for Data Manipulation",
-                    "difficulty": "Low",
-                    "definition": "Master Pandas for data manipulation and analysis. Learn about DataFrames, Series, data loading, cleaning, filtering, grouping, and merging data, which are essential steps in any ML project.",
-                    "Links": "https://www.youtube.com/watch?v=dcqPhpY7tWk",
-                    "articles": [
-                        "https://pandas.pydata.org/docs/user_guide/10min.html",
-                        "https://realpython.com/pandas-dataframe/",
-                        "https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-series"
-                    ]
-                },
-                {
-                    "name": "Linear Algebra",
-                    "difficulty": "Medium",
-                    "definition": "Grasp core concepts like vectors, matrices, matrix operations, dot products, eigenvalues, and eigenvectors. These are foundational for understanding how many ML algorithms work, especially in areas like PCA and neural networks.",
-                    "Links": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
-                    "articles": [
-                        "https://www.khanacademy.org/math/linear-algebra",
-                        "https://www.datacamp.com/community/tutorials/machine-learning-linear-algebra",
-                        "https://towardsdatascience.com/the-abs-of-linear-algebra-for-machine-learning-a-beginners-guide-222702222b1"
-                    ]
-                },
-                {
-                    "name": "Calculus (Multivariable)",
-                    "difficulty": "Medium",
-                    "definition": "Understand derivatives, gradients, partial derivatives, and chain rule. These concepts are vital for optimizing machine learning models, particularly in understanding gradient descent and backpropagation.",
-                    "Links": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
-                    "articles": [
-                        "https://www.khanacademy.org/math/multivariable-calculus",
-                        "https://towardsdatascience.com/calculus-for-machine-learning-e0a07222024c",
-                        "https://www.datacamp.com/community/tutorials/calculus-for-machine-learning"
-                    ]
-                },
-                {
-                    "name": "Probability and Statistics",
-                    "difficulty": "Medium",
-                    "definition": "Learn about probability distributions, descriptive statistics (mean, median, mode, variance, standard deviation), inferential statistics (hypothesis testing, confidence intervals), and Bayes' theorem. These are crucial for understanding data, model assumptions, and evaluating model performance.",
-                    "Links": "https://www.youtube.com/watch?v=V_Fh_j_g_20",
-                    "articles": [
-                        "https://www.khanacademy.org/math/statistics-probability",
-                        "https://towardsdatascience.com/probability-and-statistics-for-data-science-and-machine-learning-a-comprehensive-guide-2020-f02442020c7",
-                        "https://www.datacamp.com/community/tutorials/statistics-for-data-science"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Introduction to Machine Learning",
-            "difficulty": "Low",
-            "definition": "This section introduces the core concepts of machine learning, its different types, and the typical workflow involved in building an ML model. It sets the stage for deeper dives into specific algorithms.",
-            "topics": [
-                {
-                    "name": "What is Machine Learning?",
-                    "difficulty": "Low",
-                    "definition": "Understand the definition, goals, and applications of machine learning. Learn about the difference between AI, ML, and Deep Learning.",
-                    "Links": "https://www.youtube.com/watch?v=ukzFI9rgWFw",
-                    "articles": [
-                        "https://www.ibm.com/cloud/learn/machine-learning",
-                        "https://towardsdatascience.com/what-is-machine-learning-a-simple-explanation-for-everyone-b7a4e226481c",
-                        "https://www.geeksforgeeks.org/what-is-machine-learning/"
-                    ]
-                },
-                {
-                    "name": "Types of Machine Learning",
-                    "difficulty": "Low",
-                    "definition": "Explore the main paradigms: Supervised Learning (learning from labeled data), Unsupervised Learning (finding patterns in unlabeled data), and Reinforcement Learning (learning through trial and error with rewards).",
-                    "Links": "https://www.youtube.com/watch?v=f_R_CtbJ-5Q",
-                    "articles": [
-                        "https://www.javatpoint.com/types-of-machine-learning",
-                        "https://towardsdatascience.com/the-3-types-of-machine-learning-explained-with-examples-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/types-of-machine-learning/"
-                    ]
-                },
-                {
-                    "name": "Machine Learning Workflow",
-                    "difficulty": "Low",
-                    "definition": "Understand the typical steps involved in an ML project: data collection, data preprocessing, model selection, training, evaluation, and deployment.",
-                    "Links": "https://www.youtube.com/watch?v=PPL_bB_J-2U",
-                    "articles": [
-                        "https://www.datacamp.com/blog/machine-learning-workflow",
-                        "https://towardsdatascience.com/the-machine-learning-workflow-a-comprehensive-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/machine-learning-workflow/"
-                    ]
-                },
-                {
-                    "name": "Bias-Variance Tradeoff",
-                    "difficulty": "Medium",
-                    "definition": "Learn about the fundamental concept of bias and variance in machine learning models and how they relate to underfitting and overfitting. Understanding this helps in selecting and tuning models.",
-                    "Links": "https://www.youtube.com/watch?v=EuBBz3B-aSY",
-                    "articles": [
-                        "https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e69677963",
-                        "https://www.geeksforgeeks.org/bias-variance-tradeoff-in-machine-learning/",
-                        "https://www.ibm.com/cloud/learn/bias-variance-tradeoff"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Data Preprocessing & Feature Engineering",
-            "difficulty": "Medium",
-            "definition": "Data quality significantly impacts model performance. This section focuses on preparing raw data for machine learning algorithms and creating new features to improve model accuracy.",
-            "topics": [
-                {
-                    "name": "Handling Missing Data",
-                    "difficulty": "Low",
-                    "definition": "Learn techniques to identify and manage missing values in datasets, including imputation strategies (mean, median, mode, regression) and deletion methods.",
-                    "Links": "https://www.youtube.com/watch?v=2_gA_y_2y7Q",
-                    "articles": [
-                        "https://towardsdatascience.com/how-to-handle-missing-data-8646b18db060",
-                        "https://www.geeksforgeeks.org/handling-missing-values-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-to-data-imputation/"
-                    ]
-                },
-                {
-                    "name": "Encoding Categorical Data",
-                    "difficulty": "Low",
-                    "definition": "Understand how to convert categorical variables (e.g., 'red', 'green', 'blue') into numerical representations that machine learning models can process, using techniques like One-Hot Encoding and Label Encoding.",
-                    "Links": "https://www.youtube.com/watch?v=9yl6-rx_o-o",
-                    "articles": [
-                        "https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoding-547353293026",
-                        "https://www.geeksforgeeks.org/ml-handling-categorical-data-using-one-hot-encoder/",
-                        "https://www.analyticsvidhya.com/blog/2020/08/types-of-categorical-data-encoding-techniques/"
-                    ]
-                },
-                {
-                    "name": "Feature Scaling",
-                    "difficulty": "Low",
-                    "definition": "Learn about techniques like Standardization (Z-score normalization) and Normalization (Min-Max scaling) to bring features to a similar scale, which is crucial for many ML algorithms.",
-                    "Links": "https://www.youtube.com/watch?v=f_q_g2C-22A",
-                    "articles": [
-                        "https://towardsdatascience.com/feature-scaling-for-machine-learning-d1f79797758c",
-                        "https://www.geeksforgeeks.org/data-normalization-and-standardization-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/"
-                    ]
-                },
-                {
-                    "name": "Feature Selection",
-                    "difficulty": "Medium",
-                    "definition": "Explore methods to select the most relevant features from your dataset to improve model performance, reduce overfitting, and decrease training time. Techniques include filter, wrapper, and embedded methods.",
-                    "Links": "https://www.youtube.com/watch?v=fwY9QzIN-mw",
-                    "articles": [
-                        "https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7c06e471",
-                        "https://www.geeksforgeeks.org/feature-selection-techniques-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2020/10/feature-selection-for-machine-learning-a-comprehensive-guide/"
-                    ]
-                },
-                {
-                    "name": "Feature Engineering",
-                    "difficulty": "Medium",
-                    "definition": "Understand the art of creating new features from existing ones to enhance the predictive power of machine learning models. This often involves domain knowledge and creativity.",
-                    "Links": "https://www.youtube.com/watch?v=XyX5g_y-g_0",
-                    "articles": [
-                        "https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5113",
-                        "https://www.geeksforgeeks.org/feature-engineering-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2020/04/feature-engineering-machine-learning/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Supervised Learning - Regression",
-            "difficulty": "Medium",
-            "definition": "Supervised learning algorithms learn from labeled data to predict a continuous output. This section focuses on regression techniques used for predicting numerical values.",
-            "topics": [
-                {
-                    "name": "Linear Regression",
-                    "difficulty": "Low",
-                    "definition": "Learn the simplest form of regression, which models the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data.",
-                    "Links": "https://www.youtube.com/watch?v=ZkjP5RzQ_X4",
-                    "articles": [
-                        "https://towardsdatascience.com/linear-regression-simplified-a4e0b2417614",
-                        "https://www.geeksforgeeks.org/linear-regression-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-to-linear-regression/"
-                    ]
-                },
-                {
-                    "name": "Polynomial Regression",
-                    "difficulty": "Medium",
-                    "definition": "Extend linear regression to model non-linear relationships by fitting a polynomial equation to the data. Understand when and how to use polynomial features.",
-                    "Links": "https://www.youtube.com/watch?v=nyd-NUS_X-g",
-                    "articles": [
-                        "https://towardsdatascience.com/polynomial-regression-a-simple-explanation-with-code-e65b0b93652b",
-                        "https://www.geeksforgeeks.org/polynomial-regression-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/05/polynomial-regression-a-complete-guide/"
-                    ]
-                },
-                {
-                    "name": "Decision Tree Regressor",
-                    "difficulty": "Medium",
-                    "definition": "Understand how decision trees can be used for regression tasks by splitting data based on features to predict a continuous target variable. Learn about concepts like impurity and splitting criteria.",
-                    "Links": "https://www.youtube.com/watch?v=g9c66TUylZ4",
-                    "articles": [
-                        "https://towardsdatascience.com/decision-tree-for-regression-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/decision-tree-regression-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-on-decision-tree-regression/"
-                    ]
-                },
-                {
-                    "name": "Random Forest Regressor",
-                    "difficulty": "Medium",
-                    "definition": "Learn about ensemble methods, specifically Random Forest, which combines multiple decision trees to improve prediction accuracy and reduce overfitting in regression tasks.",
-                    "Links": "https://www.youtube.com/watch?v=J4Wd_W_xQ0c",
-                    "articles": [
-                        "https://towardsdatascience.com/random-forest-regression-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/random-forest-regression-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/06/a-comprehensive-guide-to-random-forest-regression/"
-                    ]
-                },
-                {
-                    "name": "Gradient Boosting Regressor (e.g., XGBoost, LightGBM)",
-                    "difficulty": "High",
-                    "definition": "Dive into advanced ensemble techniques like Gradient Boosting, which builds models sequentially, with each new model correcting errors of previous ones. Understand the principles behind XGBoost and LightGBM.",
-                    "Links": "https://www.youtube.com/watch?v=3CC4N4z3JBg",
-                    "articles": [
-                        "https://towardsdatascience.com/gradient-boosting-explained-9302cd2f5b25",
-                        "https://www.geeksforgeeks.org/gradient-boosting-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-gradient-boosting-for-regression/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Supervised Learning - Classification",
-            "difficulty": "Medium",
-            "definition": "This section covers algorithms used for classification tasks, where the goal is to predict a categorical output (e.g., 'spam' or 'not spam', 'cat' or 'dog').",
-            "topics": [
-                {
-                    "name": "Logistic Regression",
-                    "difficulty": "Medium",
-                    "definition": "Despite its name, Logistic Regression is a fundamental classification algorithm used to predict the probability of a binary outcome. Learn about the sigmoid function and decision boundaries.",
-                    "Links": "https://www.youtube.com/watch?v=yIYKR4sgzDQ",
-                    "articles": [
-                        "https://towardsdatascience.com/logistic-regression-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/logistic-regression-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-logistic-regression/"
-                    ]
-                },
-                {
-                    "name": "K-Nearest Neighbors (KNN)",
-                    "difficulty": "Low",
-                    "definition": "Understand this non-parametric, instance-based learning algorithm that classifies new data points based on the majority class of their 'k' nearest neighbors in the feature space.",
-                    "Links": "https://www.youtube.com/watch?v=MD_s_jK_g_I",
-                    "articles": [
-                        "https://towardsdatascience.com/k-nearest-neighbors-knn-algorithm-for-machine-learning-e472020c7",
-                        "https://www.geeksforgeeks.org/k-nearest-neighbors-knn-algorithm-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-k-nearest-neighbors-knn-algorithm/"
-                    ]
-                },
-                {
-                    "name": "Support Vector Machines (SVM)",
-                    "difficulty": "Medium",
-                    "definition": "Learn about SVMs, powerful algorithms that find an optimal hyperplane to separate data points into different classes, maximizing the margin between them. Understand kernels and regularization.",
-                    "Links": "https://www.youtube.com/watch?v=efR1C6CvgmQ",
-                    "articles": [
-                        "https://towardsdatascience.com/support-vector-machine-svm-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/support-vector-machine-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-support-vector-machine-svm/"
-                    ]
-                },
-                {
-                    "name": "Decision Tree Classifier",
-                    "difficulty": "Medium",
-                    "definition": "Similar to regression trees, learn how decision trees classify data by recursively splitting it based on feature values until a clear class label can be assigned. Understand Gini impurity and entropy.",
-                    "Links": "https://www.youtube.com/watch?v=Z_L3_t_d1_8",
-                    "articles": [
-                        "https://towardsdatascience.com/decision-tree-classifier-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/decision-tree-classification-algorithm-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-on-decision-tree-classification/"
-                    ]
-                },
-                {
-                    "name": "Random Forest Classifier",
-                    "difficulty": "Medium",
-                    "definition": "Apply the Random Forest ensemble technique to classification problems, leveraging multiple decision trees to improve robustness and accuracy over a single tree.",
-                    "Links": "https://www.youtube.com/watch?v=v6VJ2Fu_X_4",
-                    "articles": [
-                        "https://towardsdatascience.com/random-forest-classifier-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/random-forest-classifier-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/06/a-comprehensive-guide-to-random-forest-classification/"
-                    ]
-                },
-                {
-                    "name": "Gradient Boosting Classifier (e.g., XGBoost, LightGBM)",
-                    "difficulty": "High",
-                    "definition": "Utilize advanced gradient boosting algorithms for classification tasks, understanding how they sequentially build and combine weak learners to create a strong predictive model.",
-                    "Links": "https://www.youtube.com/watch?v=otgC3PAg-gQ",
-                    "articles": [
-                        "https://towardsdatascience.com/gradient-boosting-for-classification-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/xgboost-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-gradient-boosting-for-classification/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Unsupervised Learning",
-            "difficulty": "Medium",
-            "definition": "Unsupervised learning deals with unlabeled data, aiming to discover hidden patterns, structures, or groupings within the data without explicit guidance.",
-            "topics": [
-                {
-                    "name": "K-Means Clustering",
-                    "difficulty": "Medium",
-                    "definition": "Learn this popular partitioning algorithm that groups data points into 'k' clusters based on their similarity, minimizing the sum of squared distances between points and their cluster centroid.",
-                    "Links": "https://www.youtube.com/watch?v=4EXNedimDMs",
-                    "articles": [
-                        "https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a",
-                        "https://www.geeksforgeeks.org/k-means-clustering-algorithm/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-k-means-clustering/"
-                    ]
-                },
-                {
-                    "name": "Hierarchical Clustering",
-                    "difficulty": "Medium",
-                    "definition": "Explore methods that build a hierarchy of clusters, either by starting with individual data points and merging them (agglomerative) or by starting with one large cluster and splitting it (divisive).",
-                    "Links": "https://www.youtube.com/watch?v=7x3K_s-y4wQ",
-                    "articles": [
-                        "https://towardsdatascience.com/hierarchical-clustering-explained-e572020c7",
-                        "https://www.geeksforgeeks.org/hierarchical-clustering-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-hierarchical-clustering/"
-                    ]
-                },
-                {
-                    "name": "Principal Component Analysis (PCA)",
-                    "difficulty": "Medium",
-                    "definition": "Understand PCA as a dimensionality reduction technique that transforms data into a new set of orthogonal variables called principal components, capturing the most variance in the data.",
-                    "Links": "https://www.youtube.com/watch?v=fPM3_B_y_1Q",
-                    "articles": [
-                        "https://towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-pca-b83e1d7145a7",
-                        "https://www.geeksforgeeks.org/principal-component-analysis-pca/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-principal-component-analysis-pca/"
-                    ]
-                },
-                {
-                    "name": "t-Distributed Stochastic Neighbor Embedding (t-SNE)",
-                    "difficulty": "High",
-                    "definition": "Learn about t-SNE, a non-linear dimensionality reduction technique particularly well-suited for visualizing high-dimensional datasets by mapping them to a lower-dimensional space while preserving local structures.",
-                    "Links": "https://www.youtube.com/watch?v=NEaUSP4YerM",
-                    "articles": [
-                        "https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1",
-                        "https://www.geeksforgeeks.org/t-sne-algorithm-for-dimensionality-reduction/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-t-sne-for-dimensionality-reduction/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Model Evaluation & Selection",
-            "difficulty": "Medium",
-            "definition": "This crucial section focuses on how to assess the performance of machine learning models, compare different models, and select the best one for a given task, avoiding common pitfalls like overfitting.",
-            "topics": [
-                {
-                    "name": "Regression Metrics",
-                    "difficulty": "Low",
-                    "definition": "Understand key metrics for evaluating regression models, including Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared.",
-                    "Links": "https://www.youtube.com/watch?v=K_gN_j_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/regression-metrics-for-machine-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/regression-metrics-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-regression-metrics/"
-                    ]
-                },
-                {
-                    "name": "Classification Metrics",
-                    "difficulty": "Medium",
-                    "definition": "Learn about essential metrics for classification models: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC Curve, and AUC (Area Under the Curve).",
-                    "Links": "https://www.youtube.com/watch?v=85dgzG_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/classification-metrics-for-machine-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/classification-metrics-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-classification-metrics/"
-                    ]
-                },
-                {
-                    "name": "Cross-Validation",
-                    "difficulty": "Medium",
-                    "definition": "Understand techniques like K-Fold Cross-Validation to robustly estimate model performance and reduce the risk of overfitting by training and testing on different subsets of the data.",
-                    "Links": "https://www.youtube.com/watch?v=fF_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/cross-validation-in-machine-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/cross-validation-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-cross-validation/"
-                    ]
-                },
-                {
-                    "name": "Hyperparameter Tuning (Grid Search, Random Search)",
-                    "difficulty": "Medium",
-                    "definition": "Learn how to optimize model performance by systematically searching for the best combination of hyperparameters using techniques like Grid Search and Random Search.",
-                    "Links": "https://www.youtube.com/watch?v=G_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/hyperparameter-tuning-in-machine-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/hyperparameter-tuning-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-hyperparameter-tuning/"
-                    ]
-                },
-                {
-                    "name": "Overfitting and Underfitting",
-                    "difficulty": "Low",
-                    "definition": "Deepen your understanding of these critical concepts, how to detect them, and strategies to mitigate them (e.g., regularization, more data, simpler models).",
-                    "Links": "https://www.youtube.com/watch?v=EuBBz3B-aSY",
-                    "articles": [
-                        "https://towardsdatascience.com/overfitting-and-underfitting-in-machine-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/overfitting-and-underfitting-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-overfitting-and-underfitting/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Deep Learning Fundamentals",
-            "difficulty": "High",
-            "definition": "This section introduces the powerful field of Deep Learning, a subfield of machine learning that uses artificial neural networks with multiple layers to learn complex patterns from data.",
-            "topics": [
-                {
-                    "name": "Introduction to Neural Networks",
-                    "difficulty": "Medium",
-                    "definition": "Understand the basic structure of artificial neural networks, including neurons, layers (input, hidden, output), weights, and biases. Learn about the inspiration from biological brains.",
-                    "Links": "https://www.youtube.com/watch?v=aircAruvnKk",
-                    "articles": [
-                        "https://towardsdatascience.com/a-beginners-guide-to-neural-networks-1d1d1d1d1d1d",
-                        "https://www.geeksforgeeks.org/introduction-to-neural-networks/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-neural-networks/"
-                    ]
-                },
-                {
-                    "name": "Activation Functions",
-                    "difficulty": "Medium",
-                    "definition": "Explore different activation functions (e.g., Sigmoid, Tanh, ReLU, Leaky ReLU) and their role in introducing non-linearity into neural networks, enabling them to learn complex relationships.",
-                    "Links": "https://www.youtube.com/watch?v=bfg_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/activation-functions-in-neural-networks-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/activation-functions-in-neural-networks/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-activation-functions/"
-                    ]
-                },
-                {
-                    "name": "Forward and Backward Propagation",
-                    "difficulty": "High",
-                    "definition": "Understand the core mechanisms of neural network training: forward propagation (calculating output) and backward propagation (calculating gradients and updating weights using the chain rule).",
-                    "Links": "https://www.youtube.com/watch?v=Ilg3gqCs4EA",
-                    "articles": [
-                        "https://towardsdatascience.com/forward-and-backward-propagation-in-neural-networks-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/backpropagation-in-neural-networks/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-forward-and-backward-propagation/"
-                    ]
-                },
-                {
-                    "name": "Gradient Descent and Optimizers",
-                    "difficulty": "High",
-                    "definition": "Delve into gradient descent, the optimization algorithm used to minimize the loss function. Learn about its variants (Stochastic, Mini-batch) and advanced optimizers like Adam, RMSprop, and Adagrad.",
-                    "Links": "https://www.youtube.com/watch?v=vMh0zPT0tLI",
-                    "articles": [
-                        "https://towardsdatascience.com/gradient-descent-and-optimizers-in-deep-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/gradient-descent-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-gradient-descent-and-optimizers/"
-                    ]
-                },
-                {
-                    "name": "Introduction to Keras/TensorFlow",
-                    "difficulty": "Medium",
-                    "definition": "Get hands-on with popular deep learning frameworks like Keras (a high-level API) and TensorFlow (its backend). Learn to build, train, and evaluate simple neural networks.",
-                    "Links": "https://www.youtube.com/watch?v=qF_2_2_2_20",
-                    "articles": [
-                        "https://www.tensorflow.org/guide/keras/sequential_model",
-                        "https://www.geeksforgeeks.org/introduction-to-keras/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-keras-and-tensorflow/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Advanced Topics & Specializations",
-            "difficulty": "High",
-            "definition": "This section introduces specialized areas within machine learning, providing a glimpse into more complex applications and research frontiers.",
-            "topics": [
-                {
-                    "name": "Convolutional Neural Networks (CNNs) for Computer Vision",
-                    "difficulty": "High",
-                    "definition": "Understand the architecture and applications of CNNs, which are highly effective for image recognition, object detection, and other computer vision tasks. Learn about convolutions, pooling, and common architectures.",
-                    "Links": "https://www.youtube.com/watch?v=aircAruvnKk",
-                    "articles": [
-                        "https://towardsdatascience.com/convolutional-neural-networks-cnns-for-computer-vision-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/convolutional-neural-networks-cnn/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-convolutional-neural-networks-cnns/"
-                    ]
-                },
-                {
-                    "name": "Recurrent Neural Networks (RNNs) for NLP",
-                    "difficulty": "High",
-                    "definition": "Explore RNNs, designed for sequential data like text and time series. Learn about their ability to handle dependencies in sequences and the challenges of vanishing/exploding gradients. Introduce LSTMs and GRUs.",
-                    "Links": "https://www.youtube.com/watch?v=UNmqFg_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/recurrent-neural-networks-rnns-for-nlp-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/recurrent-neural-networks-rnn-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-recurrent-neural-networks-rnns/"
-                    ]
-                },
-                {
-                    "name": "Introduction to Reinforcement Learning",
-                    "difficulty": "High",
-                    "definition": "Get an overview of Reinforcement Learning, where an agent learns to make decisions by interacting with an environment to maximize a cumulative reward. Understand concepts like agents, environments, states, actions, and rewards.",
-                    "Links": "https://www.youtube.com/watch?v=VM_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/reinforcement-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/what-is-reinforcement-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-reinforcement-learning/"
-                    ]
-                }
-            ]
-        },
-        {
-            "subtopic_name": "Practical Aspects & MLOps",
-            "difficulty": "Medium",
-            "definition": "This section focuses on the practical considerations of deploying and managing machine learning models in real-world scenarios, including ethical implications.",
-            "topics": [
-                {
-                    "name": "Model Deployment Basics",
-                    "difficulty": "Medium",
-                    "definition": "Learn the fundamental steps and considerations for taking a trained machine learning model and making it available for predictions in a production environment, often involving APIs and web services.",
-                    "Links": "https://www.youtube.com/watch?v=0_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/how-to-deploy-machine-learning-models-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/machine-learning-model-deployment/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-machine-learning-model-deployment/"
-                    ]
-                },
-                {
-                    "name": "Introduction to MLOps",
-                    "difficulty": "Medium",
-                    "definition": "Understand MLOps (Machine Learning Operations), a set of practices for deploying and maintaining ML models reliably and efficiently in production. Covers concepts like versioning, monitoring, and automation.",
-                    "Links": "https://www.youtube.com/watch?v=0_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/what-is-mlops-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/what-is-mlops/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-mlops/"
-                    ]
-                },
-                {
-                    "name": "Ethical AI and Bias",
-                    "difficulty": "Low",
-                    "definition": "Explore the ethical considerations in machine learning, including issues of bias in data and algorithms, fairness, transparency, and accountability. Understand the societal impact of AI.",
-                    "Links": "https://www.youtube.com/watch?v=0_2_2_2_20",
-                    "articles": [
-                        "https://towardsdatascience.com/ethical-ai-and-bias-in-machine-learning-a-complete-guide-2023-c472020c7",
-                        "https://www.geeksforgeeks.org/ethical-ai-and-bias-in-machine-learning/",
-                        "https://www.analyticsvidhya.com/blog/2021/08/a-complete-guide-to-ethical-ai-and-bias/"
-                    ]
-                }
-            ]
-        }
-    ]
+    "Machine Learning": {
+        "topic_name": "Machine Learning",
+        "definition": "Machine Learning (ML) is a branch of artificial intelligence that enables computers to learn from data and improve performance on tasks without being explicitly programmed.",
+        "sutopics": [
+            {
+                "subtopic_name": "Mathematical Foundations",
+                "difficulty": "Low",
+                "definition": "Core mathematical concepts required to understand ML algorithms, including linear algebra, probability, and statistics.",
+                "topics": [
+                    {
+                        "name": "Linear Algebra Basics",
+                        "difficulty": "Low",
+                        "definition": "Vectors, matrices, matrix operations, eigenvalues/eigenvectors, and their role in data representation.",
+                        "Links": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+                        "articles": [
+                            "https://betterexplained.com/articles/linear-algebra-guide/",
+                            "https://towardsdatascience.com/linear-algebra-for-machine-learning-7d04153de7a1"
+                        ]
+                    },
+                    {
+                        "name": "Probability Theory",
+                        "difficulty": "Low",
+                        "definition": "Basic probability, random variables, distributions, Bayes' theorem, and expectation.",
+                        "Links": "https://www.youtube.com/watch?v=r1S5N7K9PCQ",
+                        "articles": [
+                            "https://www.mathsisfun.com/data/probability.html",
+                            "https://towardsdatascience.com/probability-concepts-explained-bayes-theorem-6497d2210d2c"
+                        ]
+                    },
+                    {
+                        "name": "Descriptive Statistics",
+                        "difficulty": "Low",
+                        "definition": "Measures of central tendency, variance, covariance, correlation, and data summarization techniques.",
+                        "Links": "https://www.youtube.com/watch?v=MrBdu3ZdN3Y",
+                        "articles": [
+                            "https://www.statisticshowto.com/probability-and-statistics/descriptive-statistics/",
+                            "https://towardsdatascience.com/descriptive-statistics-for-data-science-2e9b2f5ea0c3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Programming and Tools",
+                "difficulty": "Low",
+                "definition": "Essential programming skills and software libraries used to implement ML algorithms.",
+                "topics": [
+                    {
+                        "name": "Python Basics",
+                        "difficulty": "Low",
+                        "definition": "Syntax, data structures, control flow, functions, and modules in Python.",
+                        "Links": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+                        "articles": [
+                            "https://realpython.com/learn/python-first-steps/",
+                            "https://www.w3schools.com/python/"
+                        ]
+                    },
+                    {
+                        "name": "NumPy and Pandas",
+                        "difficulty": "Low",
+                        "definition": "Array manipulation with NumPy and data wrangling with Pandas.",
+                        "Links": "https://www.youtube.com/watch?v=E3W4WQ4VjKM",
+                        "articles": [
+                            "https://numpy.org/doc/stable/user/absolute_beginners.html",
+                            "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html"
+                        ]
+                    },
+                    {
+                        "name": "Data Visualization with Matplotlib/Seaborn",
+                        "difficulty": "Low",
+                        "definition": "Creating plots to explore data and communicate results.",
+                        "Links": "https://www.youtube.com/watch?v=oXTeIpwW7Z4",
+                        "articles": [
+                            "https://matplotlib.org/stable/tutorials/introductory/pyplot.html",
+                            "https://seaborn.pydata.org/tutorial.html"
+                        ]
+                    },
+                    {
+                        "name": "Introduction to Scikit-learn",
+                        "difficulty": "Low",
+                        "definition": "Overview of the Scikit-learn API for implementing classic ML models.",
+                        "Links": "https://www.youtube.com/watch?v=oegcA8U1G2Y",
+                        "articles": [
+                            "https://scikit-learn.org/stable/tutorial/basic/tutorial.html",
+                            "https://towardsdatascience.com/a-gentle-introduction-to-scikit-learn-4f4aae9f0ef0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Introduction to Machine Learning",
+                "difficulty": "Low",
+                "definition": "Fundamental concepts, types of learning, and the typical ML workflow.",
+                "topics": [
+                    {
+                        "name": "Types of Machine Learning",
+                        "difficulty": "Low",
+                        "definition": "Supervised, unsupervised, semi-supervised, and reinforcement learning distinctions.",
+                        "Links": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+                        "articles": [
+                            "https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861",
+                            "https://www.ibm.com/topics/machine-learning"
+                        ]
+                    },
+                    {
+                        "name": "The ML Pipeline",
+                        "difficulty": "Low",
+                        "definition": "Steps from problem definition, data collection, preprocessing, modeling, evaluation, to deployment.",
+                        "Links": "https://www.youtube.com/watch?v=QaYECeg2kGc",
+                        "articles": [
+                            "https://developers.google.com/machine-learning/crash-course/framing",
+                            "https://www.datacamp.com/blog/machine-learning-pipeline"
+                        ]
+                    },
+                    {
+                        "name": "Overfitting and Underfitting",
+                        "difficulty": "Low",
+                        "definition": "Bias-variance tradeoff, signs of overfitting/underfitting, and intuition behind generalization.",
+                        "Links": "https://www.youtube.com/watch?v=9BBvcTl3rq0",
+                        "articles": [
+                            "https://towardsdatascience.com/overfitting-and-underfitting-with-machine-learning-algorithms-98bb033251d4",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://machinelearningmastery.com/gentle-introduction-overfitting-underfitting-machine-learning/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Supervised Learning: Regression",
+                "difficulty": "Medium",
+                "definition": "Predicting continuous target variables using linear and nonlinear models.",
+                "topics": [
+                    {
+                        "name": "Simple Linear Regression",
+                        "difficulty": "Low",
+                        "definition": "Modeling relationship between one predictor and a response variable using least squares.",
+                        "Links": "https://www.youtube.com/watch?v=zPG4NjIkCjc",
+                        "articles": [
+                            "https://towardsdatascience.com/simple-linear-regression-explained-ee31713d5dc1",
+                            "https://www.statisticshowto.com/probability-and-statistics/regression-analysis/"
+                        ]
+                    },
+                    {
+                        "name": "Multiple Linear Regression",
+                        "difficulty": "Medium",
+                        "definition": "Extending linear regression to multiple predictors, interpretation of coefficients, and multicollinearity.",
+                        "Links": "https://www.youtube.com/watch?v=qYVEL6Qc3lA",
+                        "articles": [
+                            "https://towardsdatascience.com/multiple-linear-regression-the-m math-behind-it-2a1ff27fed39",
+                            "https://online.stat.psu.edu/stat501/node/250/"
+                        ]
+                    },
+                    {
+                        "name": "Polynomial Regression",
+                        "difficulty": "Medium",
+                        "definition": "Modeling nonlinear relationships by adding polynomial terms.",
+                        "Links": "https://www.youtube.com/watch?v=GITP81b2F2o",
+                        "articles": [
+                            "https://towardsdatascience.com/polynomial-regression-7b8b6c3d0c9e",
+                            "https://www.datacamp.com/tutorial/polynomial-regression"
+                        ]
+                    },
+                    {
+                        "name": "Regularization (Ridge, Lasso)",
+                        "difficulty": "Medium",
+                        "definition": "Techniques to prevent overfitting by adding penalty terms to the loss function.",
+                        "Links": "https://www.youtube.com/watch?v=Q81RR3yKn30",
+                        "articles": [
+                            "https://towardsdatascience.com/ridge-regression-l2-regularization-61a1cb07abbd",
+                            "https://towardsdatascience.com/lasso-regression-l1-regularization-c62b0b24e9b5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Supervised Learning: Classification",
+                "difficulty": "Medium",
+                "definition": "Predicting discrete class labels using probabilistic and discriminative models.",
+                "topics": [
+                    {
+                        "name": "Logistic Regression",
+                        "difficulty": "Low",
+                        "definition": "Binary classification model using the logistic function to estimate probabilities.",
+                        "Links": "https://www.youtube.com/watch?v=-la3q9d7AKQ",
+                        "articles": [
+                            "https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc",
+                            "https://www.statisticshowto.com/probability-and-statistics/logistic-regression/"
+                        ]
+                    },
+                    {
+                        "name": "K-Nearest Neighbors (KNN)",
+                        "difficulty": "Low",
+                        "definition": "Instance-based learning that classifies based on majority vote of nearest neighbors.",
+                        "Links": "https://www.youtube.com/watch?v=HVXoweSJPdI",
+                        "articles": [
+                            "https://towardsdatascience.com/knn-algorithm-in-python-and-scikit-learn-5a27d9f5e2b9",
+                            "https://www.datacamp.com/tutorial/knn-classification-scikit-learn"
+                        ]
+                    },
+                    {
+                        "name": "Decision Trees",
+                        "difficulty": "Medium",
+                        "definition": "Tree\u2011splitting models that partition feature space based on impurity measures.",
+                        "Links": "https://www.youtube.com/watch?v=7VeUPuFGJHk",
+                        "articles": [
+                            "https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052",
+                            "https://scikit-learn.org/stable/modules/tree.html"
+                        ]
+                    },
+                    {
+                        "name": "Support Vector Machines (SVM)",
+                        "difficulty": "Medium",
+                        "definition": "Maximum\u2011margin classifiers that find optimal hyperplanes, with kernel trick for nonlinearity.",
+                        "Links": "https://www.youtube.com/watch?v=_PwhiWxHK8o",
+                        "articles": [
+                            "https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47",
+                            "https://www.cs.cmu.edu/~./svm-tutorial.html"
+                        ]
+                    },
+                    {
+                        "name": "Naive Bayes",
+                        "difficulty": "Low",
+                        "definition": "Probabilistic classifier based on Bayes theorem with strong independence assumptions.",
+                        "Links": "https://www.youtube.com/watch?v=O2L2Uv9pdDA",
+                        "articles": [
+                            "https://towardsdatascience.com/naive-bayes-clear-and-intuitive-guide-60828d77f15f",
+                            "https://www.analyticsvidhya.com/blog/2021/08/naive-bayes-explained/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Unsupervised Learning",
+                "difficulty": "Medium",
+                "definition": "Discovering hidden structure in unlabeled data via clustering, density estimation, and dimensionality reduction.",
+                "topics": [
+                    {
+                        "name": "K-Means Clustering",
+                        "difficulty": "Low",
+                        "definition": "Partitioning data into K clusters by minimizing within\u2011cluster sum of squares.",
+                        "Links": "https://www.youtube.com/watch?v=4b5d3muPQmA",
+                        "articles": [
+                            "https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-3d7aab76649f",
+                            "https://scikit-learn.org/stable/modules/clustering.html#k-means"
+                        ]
+                    },
+                    {
+                        "name": "Hierarchical Clustering",
+                        "difficulty": "Medium",
+                        "definition": "Building a tree of clusters either agglomeratively or divisively.",
+                        "Links": "https://www.youtube.com/watch?v=EgoySHqaUdE",
+                        "articles": [
+                            "https://towardsdatascience.com/hierarchical-clustering-dendrogram-tutorial-in-python-4a4f8a8bbf8f",
+                            "https://www.datacamp.com/tutorial/hierarchical-clustering-python"
+                        ]
+                    },
+                    {
+                        "name": "Principal Component Analysis (PCA)",
+                        "difficulty": "Medium",
+                        "definition": "Linear technique that projects data onto orthogonal axes of maximal variance.",
+                        "Links": "https://www.youtube.com/watch?v=FgakZw6K1QQ",
+                        "articles": [
+                            "https://towardsdatascience.com/pca-clearly-explained-how-when-why-use-it-and-how-it-works-2fe890c591ef",
+                            "https://setosa.io/ev/eigenvectors-and-eigenvalues/"
+                        ]
+                    },
+                    {
+                        "name": "t\u2011SNE and UMAP",
+                        "difficulty": "High",
+                        "definition": "Nonlinear dimensionality reduction methods for visualizing high\u2011dimensional data.",
+                        "Links": "https://www.youtube.com/watch?v=NEaUSP4YerM",
+                        "articles": [
+                            "https://distill.pub/2016/misread-tsne/",
+                            "https://towardsdatascience.com/how-umap-works-6b3c86906ef0"
+                        ]
+                    },
+                    {
+                        "name": "Gaussian Mixture Models (GMM)",
+                        "difficulty": "Medium",
+                        "definition": "Probabilistic model assuming data are generated from a mixture of several Gaussian distributions.",
+                        "Links": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+                        "articles": [
+                            "https://towardsdatascience.com/gaussian-mixture-model-clustering-and-expectation-maximization-tutorial-b5c266b7e90e",
+                            "https://scikit-learn.org/stable/modules/mixture.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Model Evaluation and Validation",
+                "difficulty": "Medium",
+                "definition": "Techniques to assess model performance, avoid overfitting, and select hyperparameters.",
+                "topics": [
+                    {
+                        "name": "Train/Test Split",
+                        "difficulty": "Low",
+                        "definition": "Dividing data into separate subsets for training and unbiased evaluation.",
+                        "Links": "https://www.youtube.com/watch?v=Sym2NUk8SD8",
+                        "articles": [
+                            "https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-8110ab61e622",
+                            "https://scikit-learn.org/stable/modules/cross_validation.html"
+                        ]
+                    },
+                    {
+                        "name": "Cross\u2011Validation",
+                        "difficulty": "Medium",
+                        "definition": "Repeated train/test splits (e.g., k\u2011fold) to obtain more reliable performance estimates.",
+                        "Links": "https://www.youtube.com/watch?v=GM3KYYfH44I",
+                        "articles": [
+                            "https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69817f",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://machinelearningmastery.com/k-fold-cross-validation/"
+                        ]
+                    },
+                    {
+                        "name": "Metrics for Regression",
+                        "difficulty": "Low",
+                        "definition": "MAE, MSE, RMSE, R\u2011squared, and when to use each.",
+                        "Links": "https://www.youtube.com/watch?v=7gmIVEQMdJc",
+                        "articles": [
+                            "https://towardsdatascience.com/regression-metrics-for-machine-learning-472b7913d305",
+                            "https://www.statisticshowto.com/probability-and-statistics/r-squared/"
+                        ]
+                    },
+                    {
+                        "name": "Metrics for Classification",
+                        "difficulty": "Low",
+                        "definition": "Accuracy, precision, recall, F1\u2011score, ROC\u2011AUC, and confusion matrix interpretation.",
+                        "Links": "https://www.youtube.com/watch?v=4jRBRDbJemM",
+                        "articles": [
+                            "https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-a62d7979816e",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/machine-learning/crash-course/classification/prec-recall"
+                        ]
+                    },
+                    {
+                        "name": "Bias\u2011Variance Tradeoff",
+                        "difficulty": "Medium",
+                        "definition": "Understanding how model complexity affects prediction error and how to balance it.",
+                        "Links": "https://www.youtube.com/watch?v=Ezv5Zb0IX8Q",
+                        "articles": [
+                            "https://towardsdatascience.com/bias-variance-tradeoff-in-machine-learning-165ef1e7f25e",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.analyticsvidhya.com/blog/2020/03/understanding-bias-variance-tradeoff/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Feature Engineering",
+                "difficulty": "Medium",
+                "definition": "Creating, selecting, and transforming input variables to improve model performance.",
+                "topics": [
+                    {
+                        "name": "Handling Missing Data",
+                        "difficulty": "Low",
+                        "definition": "Techniques such as imputation, deletion, and flagging missing values.",
+                        "Links": "https://www.youtube.com/watch?v=HwoO9w5V6yM",
+                        "articles": [
+                            "https://towardsdatascience.com/how-to-handle-missing-data-in-your-dataset-1306e9b1e925",
+                            "https://pandas.pydata.org/docs/user_guide/missing_data.html"
+                        ]
+                    },
+                    {
+                        "name": "Encoding Categorical Variables",
+                        "difficulty": "Low",
+                        "definition": "One\u2011hot, ordinal, target, and frequency encoding methods.",
+                        "Links": "https://www.youtube.com/watch?v=qdGoSc5BWEU",
+                        "articles": [
+                            "https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://scikit-learn.org/stable/modules/preprocessing.html#encoding-categorical-features"
+                        ]
+                    },
+                    {
+                        "name": "Scaling and Normalization",
+                        "difficulty": "Low",
+                        "definition": "Standardization, min\u2011max scaling, and robust scaling to bring features to comparable ranges.",
+                        "Links": "https://www.youtube.com/watch?v=4bfcqg0iJ3U",
+                        "articles": [
+                            "https://towardsdatascience.com/feature-scaling-and-normalization-for-machine-learning-989ca1e9aa41",
+                            "https://scikit-learn.org/stable/modules/preprocessing.html#scaling-features-to-a-range"
+                        ]
+                    },
+                    {
+                        "name": "Feature Selection",
+                        "difficulty": "Medium",
+                        "definition": "Filter, wrapper, and embedded methods to identify the most predictive subset of features.",
+                        "Links": "https://www.youtube.com/watch?v=6tNP--hpw2I",
+                        "articles": [
+                            "https://towardsdatascience.com/an-introduction-to-feature-selection-methods-5190da1ea2e9",
+                            "https://scikit-learn.org/stable/modules/feature_selection.html"
+                        ]
+                    },
+                    {
+                        "name": "Dimensionality Reduction (PCA, LDA)",
+                        "difficulty": "Medium",
+                        "definition": "Techniques to reduce number of features while preserving variance or class separability.",
+                        "Links": "https://www.youtube.com/watch?v=FgakZw6K1QQ",
+                        "articles": [
+                            "https://towardsdatascience.com/pca-clearly-explained-how-when-why-use-it-and-how-it-works-2fe890c591ef",
+                            "https://scikit-learn.org/stable/modules/lda_qda.html#lda"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Ensemble Methods",
+                "difficulty": "Medium",
+                "definition": "Combining multiple models to improve predictive performance and robustness.",
+                "topics": [
+                    {
+                        "name": "Bagging and Random Forests",
+                        "difficulty": "Medium",
+                        "definition": "Bootstrap aggregation of decision trees to reduce variance.",
+                        "Links": "https://www.youtube.com/watch?v=J4Wdy0Wc_xQ",
+                        "articles": [
+                            "https://towardsdatascience.com/ensemble-methods-bagging-random-forest-gradient-boosting-4906d2735fb6",
+                            "https://scikit-learn.org/stable/modules/ensemble.html#bagging"
+                        ]
+                    },
+                    {
+                        "name": "Boosting (AdaBoost, Gradient Boosting)",
+                        "difficulty": "Medium",
+                        "definition": "Sequential learning where each model corrects errors of its predecessor.",
+                        "Links": "https://www.youtube.com/watch?v=GM3KYYfH44I",
+                        "articles": [
+                            "https://towardsdatascience.com/gradient-boosting-from-scratch-1e317ae4587d",
+                            "https://xgboost.readthedocs.io/en/latest/tutorials/model.html"
+                        ]
+                    },
+                    {
+                        "name": "XGBoost and LightGBM",
+                        "difficulty": "Medium",
+                        "definition": "Optimized gradient boosting libraries with regularization and handling of sparse data.",
+                        "Links": "https://www.youtube.com/watch?v=9L8T1yxWk3M",
+                        "articles": [
+                            "https://xgboost.readthedocs.io/en/latest/tutorials/index.html",
+                            "https://lightgbm.readthedocs.io/en/latest/pythonintro.html"
+                        ]
+                    },
+                    {
+                        "name": "Stacking and Blending",
+                        "difficulty": "High",
+                        "definition": "Meta\u2011learning approach where predictions of base models are fed into a second\u2011level model.",
+                        "Links": "https://www.youtube.com/watch?v=F5d1Rp4fHj8",
+                        "articles": [
+                            "https://towardsdatascience.com/stacking-blending-and-stackensembling-explained-5f3b3b0f9a5f",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Neural Networks and Deep Learning Basics",
+                "difficulty": "High",
+                "definition": "Introduction to artificial neural networks, activation functions, and training via backpropagation.",
+                "topics": [
+                    {
+                        "name": "Perceptron and Multilayer Perceptron (MLP)",
+                        "difficulty": "Medium",
+                        "definition": "Simple linear classifier and its extension to multiple hidden layers.",
+                        "Links": "https://www.youtube.com/watch?v=UJwQ6jYyN7M",
+                        "articles": [
+                            "https://towardsdatascience.com/multilayer-perceptron-explained-532077653f3e",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.deeplearningbook.org/contents/mlp.html"
+                        ]
+                    },
+                    {
+                        "name": "Activation Functions",
+                        "difficulty": "Medium",
+                        "definition": "ReLU, sigmoid, tanh, softmax, and their impact on gradient flow.",
+                        "Links": "https://www.youtube.com/watch?v=592kahJXAu4",
+                        "articles": [
+                            "https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6",
+                            "https://victorzhou.com/blog/activation-functions/"
+                        ]
+                    },
+                    {
+                        "name": "Loss Functions and Optimization",
+                        "difficulty": "Medium",
+                        "definition": "Cross\u2011entropy, MSE, and optimizers like SGD, Adam, RMSprop.",
+                        "Links": "https://www.youtube.com/watch?v=w8d4XxZ4fXU",
+                        "articles": [
+                            "https://towardsdatascience.com/understanding-the-binary-cross-entropy-loss-function-68ab9b0ee12c",
+                            "https://ruder.io/optimizing-gradient-descent/index.html"
+                        ]
+                    },
+                    {
+                        "name": "Backpropagation",
+                        "difficulty": "High",
+                        "definition": "Algorithm for computing gradients of loss with respect to weights in a multilayer network.",
+                        "Links": "https://www.youtube.com/watch?v=Ilg3gGPEQ5M",
+                        "articles": [
+                            "https://towardsdatascience.com/deriving-the-gradient-descent-algorithm-47030573c4e6",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.deeplearningbook.org/contents/backprop.html"
+                        ]
+                    },
+                    {
+                        "name": "Convolutional Neural Networks (CNNs) \u2013 Intro",
+                        "difficulty": "High",
+                        "definition": "Neural nets with convolutional layers for processing grid\u2011like data such as images.",
+                        "Links": "https://www.youtube.com/watch?v=YRhxdVk_sIs",
+                        "articles": [
+                            "https://towardsdatascience.com/a-comprehensive-introduction-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.deeplearningbook.org/contents/convnets.html"
+                        ]
+                    },
+                    {
+                        "name": "Recurrent Neural Networks (RNNs) \u2013 Intro",
+                        "difficulty": "High",
+                        "definition": "Networks with recurrent connections for sequential data like text or time series.",
+                        "Links": "https://www.youtube.com/watch?v=wc-FxNENg9U",
+                        "articles": [
+                            "https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-understanding-intuition-b62d33f647e6",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.deeplearningbook.org/contents/rnn.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Model Deployment and MLOps",
+                "difficulty": "High",
+                "definition": "Taking a trained model to production, ensuring scalability, monitoring, and continuous improvement.",
+                "topics": [
+                    {
+                        "name": "Model Serialization",
+                        "difficulty": "Medium",
+                        "definition": "Saving models using pickle, joblib, ONNX, or TensorFlow SavedModel for later reuse.",
+                        "Links": "https://www.youtube.com/watch?v=4u5qQ8MZc9U",
+                        "articles": [
+                            "https://towardsdatascience.com/how-to-deploy-your-machine-learning-models-using-flask-9bc530881f83",
+                            "https://scikit-learn.org/stable/model_persistence.html"
+                        ]
+                    },
+                    {
+                        "name": "REST API with Flask/FastAPI",
+                        "difficulty": "Medium",
+                        "definition": "Creating a lightweight HTTP service to serve predictions.",
+                        "Links": "https://www.youtube.com/watch?v=G1fBVQtF3zk",
+                        "articles": [
+                            "https://towardsdatascience.com/how-to-build-a-machine-learning-model-api-using-flask-4a41b7d4ee40",
+                            "https://fastapi.tiangolo.com/tutorial/"
+                        ]
+                    },
+                    {
+                        "name": "Containerization with Docker",
+                        "difficulty": "Medium",
+                        "definition": "Packaging the service and its dependencies into a portable container.",
+                        "Links": "https://www.youtube.com/watch?v=Gjnup-PuquQ",
+                        "articles": [
+                            "https://www.docker.com/get-started",
+                            "https://towardsdatascience.com/dockerizing-machine-learning-models-for-production-6d6c70110bae"
+                        ]
+                    },
+                    {
+                        "name": "CI/CD for ML",
+                        "difficulty": "High",
+                        "definition": "Automating testing, building, and deployment of ML pipelines using tools like GitHub Actions, GitLab CI, or Kubeflow Pipelines.",
+                        "Links": "https://www.youtube.com/watch?v=8g2kVhBB7aA",
+                        "articles": [
+                            "https://towardsdatascience.com/ci-cd-for-machine-learning-8c3c6b8e5a2f",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.kubeflow.org/docs/components/pipelines/introduction/"
+                        ]
+                    },
+                    {
+                        "name": "Model Monitoring and Drift Detection",
+                        "difficulty": "High",
+                        "definition": "Tracking prediction performance, data distribution changes, and setting up alerts.",
+                        "Links": "https://www.youtube.com/watch?v=0zwIiG8qH7A",
+                        "articles": [
+                            "https://towardsdatascience.com/monitoring-machine-learning-models-in-production-71f5ef11d1c9",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://evidentlyai.com/blog/model-monitoring"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Advanced Topics",
+                "difficulty": "High",
+                "definition": "Cutting\u2011edge areas that build on core ML knowledge, including reinforcement learning, generative models, and meta\u2011learning.",
+                "topics": [
+                    {
+                        "name": "Reinforcement Learning Basics",
+                        "difficulty": "High",
+                        "definition": "Agent\u2011environment interaction, reward signals, value functions, and policy optimization.",
+                        "Links": "https://www.youtube.com/watch?v=2pWv7GOvuf0",
+                        "articles": [
+                            "https://towardsdatascience.com/reinforcement-learning-explained-6f22d0cd6f48",
+                            "http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html"
+                        ]
+                    },
+                    {
+                        "name": "Generative Adversarial Networks (GANs)",
+                        "difficulty": "High",
+                        "definition": "Framework where a generator and discriminator compete to produce realistic synthetic data.",
+                        "Links": "https://www.youtube.com/watch?v=__7w0f_luhA",
+                        "articles": [
+                            "https://towardsdatascience.com/generative-adversarial-nets-gans-5w520fgg12c3",
+                            "https://arxiv.org/abs/1406.2661"
+                        ]
+                    },
+                    {
+                        "name": "Variational Autoencoders (VAEs)",
+                        "difficulty": "High",
+                        "definition": "Probabilistic autoencoders that learn a latent distribution for data generation.",
+                        "Links": "https://www.youtube.com/watch?v=6K4rFjk7TaI",
+                        "articles": [
+                            "https://towardsdatascience.com/variational-autoencoders-explained-04a6f06e0fae",
+                            "https://arxiv.org/abs/1312.6114"
+                        ]
+                    },
+                    {
+                        "name": "Transfer Learning and Fine\u2011tuning",
+                        "difficulty": "High",
+                        "definition": "Reusing pretrained models on new tasks, adapting layers, and domain adaptation techniques.",
+                        "Links": "https://www.youtube.com/watch?v=-iLaBBRJPsc",
+                        "articles": [
+                            "https://towardsdatascience.com/transfer-learning-with-fine-tuning-tf-keras-6d10b35b6b60",
+                            "https://www.google.com/url?sa=t&source=web&rct=j&url=https://huggingface.co/docs/transformers/training"
+                        ]
+                    },
+                    {
+                        "name": "Meta\u2011Learning (Learning to Learn)",
+                        "difficulty": "High",
+                        "definition": "Algorithms that improve their learning process across multiple tasks, e.g., MAML, Reptile.",
+                        "Links": "https://www.youtube.com/watch?v=rAllNegativeRYZ",
+                        "articles": [
+                            "https://towardsdatascience.com/meta-learning-learning-to-learn-fast-think-deep-30d0a64ea2e7",
+                            "https://arxiv.org/abs/1703.03400"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Convolution Nueral Network": {
+        "topic_name": "Convolutional Neural Networks",
+        "definition": "A deep learning architecture specialized for processing grid-like data such as images, using convolutional operations to extract hierarchical features.",
+        "sutopics": [
+            {
+                "subtopic_name": "Foundations of Neural Networks",
+                "difficulty": "Low",
+                "definition": "Understanding basic neural network concepts, including perceptrons, activation functions, and gradient descent.",
+                "topics": [
+                    {
+                        "name": "Perceptrons and Feedforward Networks",
+                        "difficulty": "Low",
+                        "definition": "Introduction to single-layer and multi-layer perceptrons, linear algebra basics for neural networks.",
+                        "Links": "https://www.youtube.com/watch?v=14qRqQjC5qQ",
+                        "articles": [
+                            "https://www.geeksforgeeks.org/perceptron neural-network-in-python/",
+                            "https://machinelearningmastery.com/build-your-first-neural-network-from-scratch/"
+                        ]
+                    },
+                    {
+                        "name": "Activation Functions",
+                        "difficulty": "Low",
+                        "definition": "Sigmoid, tanh, ReLU, and their role in introducing non-linearity to neural networks.",
+                        "Links": "https://www.youtube.com/watch?v=5p9RqHfVQoY",
+                        "articles": [
+                            "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)",
+                            "https://machinelearningexplained.com/definitions/activation-function/"
+                        ]
+                    },
+                    {
+                        "name": "Backpropagation Algorithm",
+                        "difficulty": "Medium",
+                        "definition": "Chain rule application in neural networks, gradient calculation, and weight updates during training.",
+                        "Links": "https://www.youtube.com/watch?v=Ilg3gG86fiE",
+                        "articles": [
+                            "https://www.educative.io/courses/grewl/3541216848818176",
+                            "https://towardsdatascience.com/understanding-backpropagation-9b4ce796670a"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Image Processing Basics",
+                "difficulty": "Low",
+                "definition": "Fundamental concepts in digital image representation and preprocessing for computer vision tasks.",
+                "topics": [
+                    {
+                        "name": "Pixel Representation",
+                        "difficulty": "Low",
+                        "definition": "Understanding pixels, bit depth, grayscale vs. color images, and coordinate systems.",
+                        "Links": "https://www.youtube.com/watch?v=6mUDTAedsnY",
+                        "articles": [
+                            "https://homepages.inf.ed.ac.uk/rhyam/RAW-RGB-conversion/RGB-YCbCr.pdf",
+                            "https://www.geeksforgeeks.org/digital-image-processing/"
+                        ]
+                    },
+                    {
+                        "name": "Image Transformations",
+                        "difficulty": "Medium",
+                        "definition": "Basic image operations: rotation, scaling, translation, and cropping for data augmentation.",
+                        "Links": "https://www.youtube.com/watch?v=4H9V1Q9h3jI",
+                        "articles": [
+                            "https://learnopencv.com/image-transformations-in-opencv/",
+                            "https://docs.scipy.org/doc/scipy/reference/ndimage.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Convolutional Layers",
+                "difficulty": "Medium",
+                "definition": "Core components of CNNs, including filters, kernels, feature maps, and stride/padding parameters.",
+                "topics": [
+                    {
+                        "name": "Convolution Operation",
+                        "difficulty": "Medium",
+                        "definition": "Mathematical foundation of convolution, kernel sliding over input, and feature extraction principles.",
+                        "Links": "https://www.youtube.com/watch?v=WU1v5aQc9lY",
+                        "articles": [
+                            "https://en.wikipedia.org/wiki/Convolutional_neural_network#Overview",
+                            "https://cs231n.github.io/convolutional-networks/"
+                        ]
+                    },
+                    {
+                        "name": "Filters and Feature Maps",
+                        "difficulty": "Medium",
+                        "definition": "Role of learnable filters in detecting patterns, multiple filter channels, and hierarchical feature learning.",
+                        "Links": "https://www.youtube.com/watch?v=2J7H1BQzLqQ",
+                        "articles": [
+                            "https://machinelearningmastery.com/how-to-visualize-filter-responses-in-deep-learning-models/",
+                            "https://developers.google.com/machine-learning/crash-course/convolutional-neural-networks/structured-data"
+                        ]
+                    },
+                    {
+                        "name": "Stride and Padding",
+                        "difficulty": "Medium",
+                        "definition": "Sliding window parameters, output size calculations, and their impact on receptive field.",
+                        "Links": "https://www.youtube.com/watch?v=3g6tcd6H47A",
+                        "articles": [
+                            "https://blog.exponea.com/engg/stride-and-padding-in-convolutional-neural-networks/",
+                            "https://machinelearningexplained.com/definitions/convolution-stride/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Pooling Layers",
+                "difficulty": "Medium",
+                "definition": "Dimensionality reduction techniques in CNNs, focusing on downsampling operations and translation invariance.",
+                "topics": [
+                    {
+                        "name": "Max Pooling",
+                        "difficulty": "Low",
+                        "definition": "Selecting maximum values from subregions, reducing spatial dimensions while preserving important features.",
+                        "Links": "https://www.youtube.com/watch?v=XCBLlD6W9qY",
+                        "articles": [
+                            "https://en.wikipedia.org/wiki/Maximum_values",
+                            "https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPooling2D"
+                        ]
+                    },
+                    {
+                        "name": "Average Pooling",
+                        "difficulty": "Low",
+                        "definition": "Averaging values in local regions, alternative to max pooling with smoother outputs.",
+                        "Links": "https://www.youtube.com/watch?v=5qF9q1Jz3gA",
+                        "articles": [
+                            "https://machinelearningmastery.com/difference-between-max-pooling-and-average-pooling/",
+                            "https://pytorch.org/docs/stable/generated/torch.nn.functional.avg_pool2d.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Fully Connected Layers and Backpropagation",
+                "difficulty": "Medium",
+                "definition": "Transition from convolutional layers to dense layers, final classification stages, and gradient flow optimization.",
+                "topics": [
+                    {
+                        "name": "Flattening and Dense Connections",
+                        "difficulty": "Medium",
+                        "definition": "Transforming 3D feature maps into 1D vectors for input into fully connected layers.",
+                        "Links": "https://www.youtube.com/watch?v=0A4dMwQlqgI",
+                        "articles": [
+                            "https://machinelearningmastery.com/understanding-the-meaning_of_theFlatten_layer_in_Keras/",
+                            "https://blog.csdn.net/u011223249/article/details/84733784"
+                        ]
+                    },
+                    {
+                        "name": "LeNet Architecture",
+                        "difficulty": "High",
+                        "definition": "First practical CNN architecture for handwritten digit recognition, serving as foundational example.",
+                        "Links": "https://www.youtube.com/watch?v=5J71mQ8g5qY",
+                        "articles": [
+                            "https://ieeexplore.ieee.org/document/7261593",
+                            "https://cs231n.github.io/convolutional-networks/#lenet"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Advanced CNN Techniques",
+                "difficulty": "High",
+                "definition": "Modern innovations to improve CNN performance, including regularization, normalization, and optimization methods.",
+                "topics": [
+                    {
+                        "name": "Dropout Regularization",
+                        "difficulty": "Medium",
+                        "definition": "Random unit deactivation during training to prevent overfitting, model ensemble effect.",
+                        "Links": "https://www.youtube.com/watch?v=arLmLp1xW4M",
+                        "articles": [
+                            "https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout",
+                            "https://machinelearningmastery.com/dropout-regularization-deep-learning/"
+                        ]
+                    },
+                    {
+                        "name": "Batch Normalization",
+                        "difficulty": "High",
+                        "definition": "Normalizing layer inputs to accelerate training, reduce internal covariate shift, and improve generalization.",
+                        "Links": "https://www.youtube.com/watch?v=MrPQd1Lx2n0",
+                        "articles": [
+                            "https://arxiv.org/abs/1502.04623",
+                            "https://machinelearningmastery.com/batch-normalization-for-deep-learning/"
+                        ]
+                    },
+                    {
+                        "name": "Residual Connections",
+                        "difficulty": "High",
+                        "definition": "Skip connections in deep networks (e.g., ResNet) to address vanishing gradients and enable training of deeper models.",
+                        "Links": "https://www.youtube.com/watch?v=esn2pP2l9mA",
+                        "articles": [
+                            "https://arxiv.org/abs/1512.03385",
+                            "https://towardsdatascience.com/residual-connections-in-deep-learning-8e37b7e9c5a"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Transfer Learning and Pretrained Models",
+                "difficulty": "High",
+                "definition": "Leveraging knowledge from pre-trained models on large datasets (e.g., ImageNet) for new tasks with limited data.",
+                "topics": [
+                    {
+                        "name": "Fine-Tuning Pretrained Models",
+                        "difficulty": "High",
+                        "definition": "Freezing early layers and retraining top layers for new datasets, balancing feature reuse and adaptation.",
+                        "Links": "https://www.youtube.com/watch?v=7kTXw0pZgKc",
+                        "articles": [
+                            "https:// MachineLearningMastery.com/use-pre-trained-models-deep-learning/",
+                            "https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html"
+                        ]
+                    },
+                    {
+                        "name": "Popular Architectures",
+                        "difficulty": "High",
+                        "definition": "Overview of VGG, Inception, ResNet, and DenseNet architectures, their strengths and applications.",
+                        "Links": "https://www.youtube.com/watch?v=0Jx2PqZgC1o",
+                        "articles": [
+                            "https://cs231n.github.io/convolutional-networks/",
+                            "https://paperswithcode.com/methods/list/resnet"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Object Detection and Segmentation",
+                "difficulty": "High",
+                "definition": "Advanced applications of CNNs for identifying and localizing objects in images or segments at pixel level.",
+                "topics": [
+                    {
+                        "name": "R-CNN Family",
+                        "difficulty": "High",
+                        "definition": "Region proposal networks, Fast R-CNN, Faster R-CNN for joint object detection and classification.",
+                        "Links": "https://www.youtube.com/watch?v=0qCp2JL7ZoE",
+                        "articles": [
+                            "https://paperswithcode.com/method/r-cnn",
+                            "https://towardsdatascience.com/r-cnn-family-of-object-detection-methods-6a6e8e8a3d5d"
+                        ]
+                    },
+                    {
+                        "name": "YOLO and Retinanet",
+                        "difficulty": "High",
+                        "definition": "You Only Look Once for real-time detection and RetinaNet for handling class imbalance in object detection.",
+                        "Links": "https://www.youtube.com/watch?v=68G3b6jH8KQ",
+                        "articles": [
+                            "https://arxiv.org/abs/1506.02640",
+                            "https://paperswithcode.com/method/yolo"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Deployment Considerations",
+                "difficulty": "High",
+                "definition": "Practical aspects of deploying CNNs to production environments, including optimization and hardware adaptation.",
+                "topics": [
+                    {
+                        "name": "Model Optimization",
+                        "difficulty": "Medium",
+                        "definition": "Quantization, pruning, and knowledge distillation for reducing model size without significant accuracy loss.",
+                        "Links": "focus on articles",
+                        "articles": [
+                            "https://machinelearningmastery.com/model-optimization-in-tensorflow/",
+                            "https://paperswithcode.com/task/model-pruning"
+                        ]
+                    },
+                    {
+                        "name": "Hardware Acceleration",
+                        "difficulty": "High",
+                        "definition": "Utilizing specialized hardware like GPUs, TPUs, and edge devices for efficient CNN inference.",
+                        "Links": "focus on articles",
+                        "articles": [
+                            "https://developer.nvidia.com/blog/introduction-to-tensorrt-2/",
+                            "https://cloud.google.com/blog/products/ai-machine-learning/learn-to-use-tpu-v3-with-tensorflow"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Indian Medival history": {
+        "topic_name": "Indian Medieval History",
+        "definition": "Indian Medieval History covers the period from the decline of the Gupta Empire and the rise of regional kingdoms around the 8th century CE to the fall of the Mughal Empire in the 18th century CE, marking significant political, cultural, and socio-economic transformations.",
+        "subtopics": [
+            {
+                "subtopic_name": "Early Medieval India (c. 750 - 1200 CE)",
+                "difficulty": "Low",
+                "definition": "This era marks the rise of powerful regional dynasties across North and South India, characterising political decentralization, feudalism, and rich temple architecture development.",
+                "topics": [
+                    {
+                        "name": "Tripartite Struggle and North Indian Kingdoms",
+                        "difficulty": "Medium",
+                        "definition": "Explores the prolonged conflict between the Palas, Pratiharas, and Rashtrakutas for control over the strategic region of Kannauj.",
+                        "Links": "https://www.youtube.com/watch?v=Xn4gN-4x36k",
+                        "articles": [
+                            "https://www.britannica.com/place/India/The-tripartite-struggle",
+                            "https://www.clearias.com/tripartite-struggle/"
+                        ]
+                    },
+                    {
+                        "name": "The Chola Dynasty and South Indian Kingdoms",
+                        "difficulty": "Medium",
+                        "definition": "Covers the maritime expansion, local self-governance, imperial administration, and grand Dravidian temple architecture of the imperial Cholas.",
+                        "Links": "https://www.youtube.com/watch?v=rK-w7V0mDWE",
+                        "articles": [
+                            "https://www.britannica.com/topic/Chola-dynasty",
+                            "https://www.drishtiias.com/to-the-points/paper1/chola-dynasty"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "The Delhi Sultanate (1206 - 1526 CE)",
+                "difficulty": "Medium",
+                "definition": "Focuses on the establishment and administration of Islamic rule in Northern India under five distinct dynasties leading up to the Mughal entry.",
+                "topics": [
+                    {
+                        "name": "Slave and Khilji Dynasties",
+                        "difficulty": "Medium",
+                        "definition": "Examines the foundation by Qutb-ud-din Aibak, consolidation under Iltutmish and Balban, and market reforms alongside Southern expeditions of Alauddin Khilji.",
+                        "Links": "https://www.youtube.com/watch?v=kYJ5k8Z6A-8",
+                        "articles": [
+                            "https://www.britannica.com/place/Delhi-sultanate",
+                            "https://www.toppr.com/guides/history/delhi-sultanate/slave-dynasty/"
+                        ]
+                    },
+                    {
+                        "name": "Tughlaq, Sayyid, and Lodi Dynasties",
+                        "difficulty": "High",
+                        "definition": "Covers Muhammad bin Tughlaq's controversial policies, Firuz Shah Tughlaq's welfare administrative works, the decline after Timur's invasion, and the final Lodi dynasty.",
+                        "Links": "https://www.youtube.com/watch?v=wH2n5K8R6fQ",
+                        "articles": [
+                            "https://www.britannica.com/topic/Tughluq-dynasty",
+                            "https://www.clearias.com/delhi-sultanate/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Regional Kingdoms: Vijayanagara and Bahmani Empires",
+                "difficulty": "Medium",
+                "definition": "Detailed study of Southern and Central Indian polities that flourished alongside the Delhi Sultanate, fostering regional art, trade, and defense networks.",
+                "topics": [
+                    {
+                        "name": "The Vijayanagara Empire",
+                        "difficulty": "Medium",
+                        "definition": "Studies the establishment by Harihara and Bukka, Krishnadevaraya's golden age, Nayankara system, and artistic legacy centered in Hampi.",
+                        "Links": "https://www.youtube.com/watch?v=d_k8J7b_Xo4",
+                        "articles": [
+                            "https://www.britannica.com/place/Vijayanagar-historical-city-India",
+                            "https://www.drishtiias.com/to-the-points/paper1/vijayanagara-empire"
+                        ]
+                    },
+                    {
+                        "name": "The Bahmani Sultanate and Deccan Sultanates",
+                        "difficulty": "High",
+                        "definition": "Covers the rise of the Bahmani kingdom, Mahmud Gawan's reforms, and its eventual fragmentation into the five Deccan Sultanates.",
+                        "Links": "https://www.youtube.com/watch?v=sO7N-4-zK4c",
+                        "articles": [
+                            "https://www.britannica.com/topic/Bahmani-kingdom",
+                            "https://www.gktoday.in/topic/bahmani-sultanate/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "The Mughal Empire (1526 - 1707 CE)",
+                "difficulty": "High",
+                "definition": "Analyzes the rise, consolidation, grand expansion, socio-religious policies, and administrative mechanisms of the premier empire of early modern India.",
+                "topics": [
+                    {
+                        "name": "Foundations: Babur, Humayun, and Sher Shah Suri",
+                        "difficulty": "Medium",
+                        "definition": "Examines the First Battle of Panipat, early Mughal struggles, and the administrative tax and road infrastructure established by Sher Shah Suri.",
+                        "Links": "https://www.youtube.com/watch?v=1F3k9N2bA-4",
+                        "articles": [
+                            "https://www.britannica.com/biography/Babur",
+                            "https://www.drishtiias.com/to-the-points/paper1/sur-dynasty-sher-shah-suri"
+                        ]
+                    },
+                    {
+                        "name": "Consolidation under Akbar and Administrative Systems",
+                        "difficulty": "High",
+                        "definition": "Focuses on Mansabdari and Jagirdari systems, revenue reforms of Todar Mal, religious initiatives like Din-i-Ilahi, and territorial expansion.",
+                        "Links": "https://www.youtube.com/watch?v=2T6D9_N6Z2c",
+                        "articles": [
+                            "https://www.britannica.com/biography/Akbar",
+                            "https://www.clearias.com/mughal-empire-akbar/"
+                        ]
+                    },
+                    {
+                        "name": "Peak and Decline: Jahangir, Shah Jahan, and Aurangzeb",
+                        "difficulty": "High",
+                        "definition": "Explores artistic achievements, structural monuments like the Taj Mahal, the expensive Deccan Campaigns, religious policies, and factors leading to empire decline.",
+                        "Links": "https://www.youtube.com/watch?v=X7oK2q-Q_eM",
+                        "articles": [
+                            "https://www.britannica.com/place/Mughal-Empire",
+                            "https://www.drishtiias.com/to-the-points/paper1/mughal-empire-part-2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Bhakti and Sufi Movements",
+                "difficulty": "Low",
+                "definition": "Examines the major socio-religious reform movements that promoted devotion, egalitarian values, vernacular literature, and syncretic cultural traditions across India.",
+                "topics": [
+                    {
+                        "name": "The Bhakti Movement",
+                        "difficulty": "Low",
+                        "definition": "Covers the Nirguna and Saguna traditions led by saints like Kabir, Guru Nanak, Mirabai, Chaitanya Mahaprabhu, and Ramananda.",
+                        "Links": "https://www.youtube.com/watch?v=P_Vn-1Y-k3c",
+                        "articles": [
+                            "https://www.britannica.com/topic/Bhakti",
+                            "https://www.clearias.com/bhakti-movement/"
+                        ]
+                    },
+                    {
+                        "name": "The Sufi Movement",
+                        "difficulty": "Low",
+                        "definition": "Focuses on Sufi orders (Silsilas) such as Chishti and Suhrawardi, highlighting figures like Khwaja Moinuddin Chishti and Nizamuddin Auliya and their socio-cultural impacts.",
+                        "Links": "https://www.youtube.com/watch?v=o9G_M6b1k1c",
+                        "articles": [
+                            "https://www.britannica.com/topic/Sufism",
+                            "https://www.drishtiias.com/to-the-points/paper1/sufi-movement"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 }
