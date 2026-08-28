@@ -1,0 +1,7 @@
+/* App-level resets – design tokens are in index.css */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
