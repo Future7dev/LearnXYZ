@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Zap, ArrowRight, Check } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import './Auth.css';
+import api from '../api/axios.js';
 
 const STEPS = ['Account', 'Profile', 'Interests'];
 const INTERESTS = ['Web Development', 'Machine Learning', 'Data Structures', 'System Design', 'DevOps', 'Mobile Dev', 'Cybersecurity', 'Blockchain'];
@@ -38,9 +39,20 @@ export default function Signup() {
 
   const handleSubmit = async () => {
     setLoading(true);
-    await new Promise(r => setTimeout(r, 900));
-    dispatch({ type: 'SIGNUP', payload: { name: form.name, email: form.email } });
-    navigate('/dashboard');
+    setError('');
+    try {
+      const res = await api.post("/auth/register", form);
+      localStorage.setItem('token', res.data.token);
+      localStorage.setItem('user', JSON.stringify(res.data));
+      dispatch({ type: 'SIGNUP', payload: res.data });
+      setLoading(false);
+      navigate('/dashboard');
+    }
+    catch (err) {
+      console.error(err);
+      setError(err.response?.data?.message || err.message || 'Registration failed');
+      setLoading(false);
+    }
   };
 
   return (
@@ -121,7 +133,7 @@ export default function Signup() {
                   {form.password.length > 0 && (
                     <div className="pw-strength">
                       <div className="pw-strength-bar">
-                        {[0,1,2].map(i => (
+                        {[0, 1, 2].map(i => (
                           <div key={i} className={`pw-strength-seg ${form.password.length > i * 4 ? 'filled' : ''}`} />
                         ))}
                       </div>

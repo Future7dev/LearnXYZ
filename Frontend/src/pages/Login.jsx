@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Zap, ArrowRight } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import './Auth.css';
+import api from '../api/axios.js';
 
 export default function Login() {
   const { dispatch } = useApp();
@@ -20,10 +21,18 @@ export default function Login() {
       return;
     }
     setLoading(true);
-    // Simulate network delay
-    await new Promise(r => setTimeout(r, 900));
-    dispatch({ type: 'LOGIN', payload: { email: form.email } });
-    navigate('/dashboard');
+    try {
+      const res = await api.post('/auth/login', form);
+      localStorage.setItem('token', res.data.token);
+      localStorage.setItem('user', JSON.stringify(res.data));
+      dispatch({ type: 'LOGIN', payload: res.data });
+      setLoading(false);
+      navigate('/dashboard');
+    } catch (err) {
+      console.error(err);
+      setError(err.response?.data?.message || err.message || 'Invalid email or password');
+      setLoading(false);
+    }
   };
 
   return (
