@@ -910,28 +910,28 @@
     },
     "Indian Medival history": {
         "topic_name": "Indian Medieval History",
-        "definition": "Indian Medieval History covers the period from the decline of the Gupta Empire and the rise of regional kingdoms around the 8th century CE to the fall of the Mughal Empire in the 18th century CE, marking significant political, cultural, and socio-economic transformations.",
+        "definition": "A comprehensive study of the Indian subcontinent from the 8th to the 18th century, covering the rise and fall of major dynasties, cultural synthesis, socio-economic developments, and religious movements.",
         "subtopics": [
             {
-                "subtopic_name": "Early Medieval India (c. 750 - 1200 CE)",
+                "subtopic_name": "Early Medieval India (c. 750 \u2013 1200 CE)",
                 "difficulty": "Low",
-                "definition": "This era marks the rise of powerful regional dynasties across North and South India, characterising political decentralization, feudalism, and rich temple architecture development.",
+                "definition": "This period marks the transition from ancient to medieval India, characterized by regional kingdoms, feudal decentralization, and the tripartite struggle for Northern dominance.",
                 "topics": [
                     {
-                        "name": "Tripartite Struggle and North Indian Kingdoms",
-                        "difficulty": "Medium",
-                        "definition": "Explores the prolonged conflict between the Palas, Pratiharas, and Rashtrakutas for control over the strategic region of Kannauj.",
-                        "Links": "https://www.youtube.com/watch?v=Xn4gN-4x36k",
+                        "name": "Tripartite Struggle and Northern Kingdoms",
+                        "difficulty": "Low",
+                        "definition": "Focuses on the conflict between the Palas, Pratiharas, and Rashtrakutas over the control of Kanauj, along with the rise of Rajput clans.",
+                        "Links": "https://www.youtube.com/watch?v=0_J3G1uBvhA",
                         "articles": [
                             "https://www.britannica.com/place/India/The-tripartite-struggle",
                             "https://www.clearias.com/tripartite-struggle/"
                         ]
                     },
                     {
-                        "name": "The Chola Dynasty and South Indian Kingdoms",
+                        "name": "The Chola Empire",
                         "difficulty": "Medium",
-                        "definition": "Covers the maritime expansion, local self-governance, imperial administration, and grand Dravidian temple architecture of the imperial Cholas.",
-                        "Links": "https://www.youtube.com/watch?v=rK-w7V0mDWE",
+                        "definition": "Examines the imperial Cholas of South India, known for their naval power, local self-governance system, and grand temple architecture.",
+                        "Links": "https://www.youtube.com/watch?v=X3x90kZ4gTQ",
                         "articles": [
                             "https://www.britannica.com/topic/Chola-dynasty",
                             "https://www.drishtiias.com/to-the-points/paper1/chola-dynasty"
@@ -940,119 +940,240 @@
                 ]
             },
             {
-                "subtopic_name": "The Delhi Sultanate (1206 - 1526 CE)",
+                "subtopic_name": "The Delhi Sultanate (1206 \u2013 1526 CE)",
                 "difficulty": "Medium",
-                "definition": "Focuses on the establishment and administration of Islamic rule in Northern India under five distinct dynasties leading up to the Mughal entry.",
+                "definition": "Covers the establishment and consolidation of Islamic rule in Northern India under five distinct dynasties based in Delhi.",
                 "topics": [
                     {
                         "name": "Slave and Khilji Dynasties",
                         "difficulty": "Medium",
-                        "definition": "Examines the foundation by Qutb-ud-din Aibak, consolidation under Iltutmish and Balban, and market reforms alongside Southern expeditions of Alauddin Khilji.",
-                        "Links": "https://www.youtube.com/watch?v=kYJ5k8Z6A-8",
+                        "definition": "Covers the founding of the Sultanate by Qutb ud-Din Aibak, the consolidation by Iltutmish, and the administrative/market reforms of Alauddin Khilji.",
+                        "Links": "https://www.youtube.com/watch?v=kYd4W0rQYJk",
                         "articles": [
                             "https://www.britannica.com/place/Delhi-sultanate",
-                            "https://www.toppr.com/guides/history/delhi-sultanate/slave-dynasty/"
+                            "https://www.clearias.com/delhi-sultanate-slave-dynasty/"
                         ]
                     },
                     {
                         "name": "Tughlaq, Sayyid, and Lodi Dynasties",
-                        "difficulty": "High",
-                        "definition": "Covers Muhammad bin Tughlaq's controversial policies, Firuz Shah Tughlaq's welfare administrative works, the decline after Timur's invasion, and the final Lodi dynasty.",
-                        "Links": "https://www.youtube.com/watch?v=wH2n5K8R6fQ",
+                        "difficulty": "Medium",
+                        "definition": "Analyzes the experimental policies of Muhammad bin Tughlaq, the welfare measures of Firoz Shah Tughlaq, and the ultimate decline under the Lodis.",
+                        "Links": "focus on articles",
                         "articles": [
-                            "https://www.britannica.com/topic/Tughluq-dynasty",
-                            "https://www.clearias.com/delhi-sultanate/"
+                            "https://www.drishtiias.com/to-the-points/paper1/delhi-sultanate-1",
+                            "https://www.historydiscussion.net/history-of-india/delhi-sultanate/tughlaq-dynasty-history-and-administration/6620"
                         ]
                     }
                 ]
             },
             {
-                "subtopic_name": "Regional Kingdoms: Vijayanagara and Bahmani Empires",
+                "subtopic_name": "Regional Kingdoms: Vijayanagara and Bahmani",
                 "difficulty": "Medium",
-                "definition": "Detailed study of Southern and Central Indian polities that flourished alongside the Delhi Sultanate, fostering regional art, trade, and defense networks.",
+                "definition": "Explores the concurrent South Indian empires that maintained socio-economic and military prowess outside Delhi Sultanate rule.",
                 "topics": [
                     {
                         "name": "The Vijayanagara Empire",
                         "difficulty": "Medium",
-                        "definition": "Studies the establishment by Harihara and Bukka, Krishnadevaraya's golden age, Nayankara system, and artistic legacy centered in Hampi.",
-                        "Links": "https://www.youtube.com/watch?v=d_k8J7b_Xo4",
+                        "definition": "Detailing the rise, golden age under Krishnadevaraya, Nayankara system, architectural wonders of Hampi, and its eventual downfall.",
+                        "Links": "https://www.youtube.com/watch?v=9L4k2d3l43s",
                         "articles": [
-                            "https://www.britannica.com/place/Vijayanagar-historical-city-India",
+                            "https://www.britannica.com/place/Vijayanagar",
                             "https://www.drishtiias.com/to-the-points/paper1/vijayanagara-empire"
                         ]
                     },
                     {
-                        "name": "The Bahmani Sultanate and Deccan Sultanates",
+                        "name": "Bahmani Sultanate and Deccan Sultanates",
                         "difficulty": "High",
-                        "definition": "Covers the rise of the Bahmani kingdom, Mahmud Gawan's reforms, and its eventual fragmentation into the five Deccan Sultanates.",
-                        "Links": "https://www.youtube.com/watch?v=sO7N-4-zK4c",
+                        "definition": "Focuses on the Persianate Bahmani Kingdom, its administrative structure, and its subsequent fragmentation into five Deccan Sultanates.",
+                        "Links": "focus on articles",
                         "articles": [
-                            "https://www.britannica.com/topic/Bahmani-kingdom",
-                            "https://www.gktoday.in/topic/bahmani-sultanate/"
+                            "https://www.britannica.com/place/Bahmani-kingdom",
+                            "https://www.clearias.com/bahmani-and-vijayanagara-kingdoms/"
                         ]
                     }
                 ]
             },
             {
-                "subtopic_name": "The Mughal Empire (1526 - 1707 CE)",
-                "difficulty": "High",
-                "definition": "Analyzes the rise, consolidation, grand expansion, socio-religious policies, and administrative mechanisms of the premier empire of early modern India.",
-                "topics": [
-                    {
-                        "name": "Foundations: Babur, Humayun, and Sher Shah Suri",
-                        "difficulty": "Medium",
-                        "definition": "Examines the First Battle of Panipat, early Mughal struggles, and the administrative tax and road infrastructure established by Sher Shah Suri.",
-                        "Links": "https://www.youtube.com/watch?v=1F3k9N2bA-4",
-                        "articles": [
-                            "https://www.britannica.com/biography/Babur",
-                            "https://www.drishtiias.com/to-the-points/paper1/sur-dynasty-sher-shah-suri"
-                        ]
-                    },
-                    {
-                        "name": "Consolidation under Akbar and Administrative Systems",
-                        "difficulty": "High",
-                        "definition": "Focuses on Mansabdari and Jagirdari systems, revenue reforms of Todar Mal, religious initiatives like Din-i-Ilahi, and territorial expansion.",
-                        "Links": "https://www.youtube.com/watch?v=2T6D9_N6Z2c",
-                        "articles": [
-                            "https://www.britannica.com/biography/Akbar",
-                            "https://www.clearias.com/mughal-empire-akbar/"
-                        ]
-                    },
-                    {
-                        "name": "Peak and Decline: Jahangir, Shah Jahan, and Aurangzeb",
-                        "difficulty": "High",
-                        "definition": "Explores artistic achievements, structural monuments like the Taj Mahal, the expensive Deccan Campaigns, religious policies, and factors leading to empire decline.",
-                        "Links": "https://www.youtube.com/watch?v=X7oK2q-Q_eM",
-                        "articles": [
-                            "https://www.britannica.com/place/Mughal-Empire",
-                            "https://www.drishtiias.com/to-the-points/paper1/mughal-empire-part-2"
-                        ]
-                    }
-                ]
-            },
-            {
-                "subtopic_name": "Bhakti and Sufi Movements",
+                "subtopic_name": "Socio-Religious Movements",
                 "difficulty": "Low",
-                "definition": "Examines the major socio-religious reform movements that promoted devotion, egalitarian values, vernacular literature, and syncretic cultural traditions across India.",
+                "definition": "Examines the transformative devotional and mystical movements that reshaped social structures, literature, and religious harmony.",
                 "topics": [
                     {
                         "name": "The Bhakti Movement",
                         "difficulty": "Low",
-                        "definition": "Covers the Nirguna and Saguna traditions led by saints like Kabir, Guru Nanak, Mirabai, Chaitanya Mahaprabhu, and Ramananda.",
-                        "Links": "https://www.youtube.com/watch?v=P_Vn-1Y-k3c",
+                        "definition": "Covers the egalitarian religious reform movement led by saints like Kabir, Guru Nanak, Mirabai, and Ramananda across different regions.",
+                        "Links": "https://www.youtube.com/watch?v=4y4P1b7J7wQ",
                         "articles": [
                             "https://www.britannica.com/topic/Bhakti",
-                            "https://www.clearias.com/bhakti-movement/"
+                            "https://www.drishtiias.com/to-the-points/paper1/bhakti-and-sufi-movement"
                         ]
                     },
                     {
-                        "name": "The Sufi Movement",
+                        "name": "Sufism in Medieval India",
                         "difficulty": "Low",
-                        "definition": "Focuses on Sufi orders (Silsilas) such as Chishti and Suhrawardi, highlighting figures like Khwaja Moinuddin Chishti and Nizamuddin Auliya and their socio-cultural impacts.",
-                        "Links": "https://www.youtube.com/watch?v=o9G_M6b1k1c",
+                        "definition": "Explores the mystical branch of Islam, its major orders (Chishti, Suhrawardi), and its profound impact on Indian music, culture, and syncretism.",
+                        "Links": "focus on articles",
                         "articles": [
                             "https://www.britannica.com/topic/Sufism",
-                            "https://www.drishtiias.com/to-the-points/paper1/sufi-movement"
+                            "https://www.clearias.com/sufism-in-india/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "The Mughal Empire (1526 \u2013 1707 CE)",
+                "difficulty": "High",
+                "definition": "Detailed study of the expansion, centralized administration, socio-cultural synthesis, and artistic achievements of the Mughal emperors.",
+                "topics": [
+                    {
+                        "name": "Foundation and Golden Age (Babur to Akbar)",
+                        "difficulty": "Medium",
+                        "definition": "Covers the Establishment by Babur, Sur interregnum, and Akbar's policies including Mansabdari, Sulh-i-Kul, and territorial conquests.",
+                        "Links": "https://www.youtube.com/watch?v=v_F1qS2S2sU",
+                        "articles": [
+                            "https://www.britannica.com/place/Mughal-Empire",
+                            "https://www.drishtiias.com/to-the-points/paper1/mughal-empire-part-1"
+                        ]
+                    },
+                    {
+                        "name": "Zenith and Decline (Jahangir to Aurangzeb)",
+                        "difficulty": "High",
+                        "definition": "Analyzes Jahangir's patronage of arts, Shah Jahan's architectural developments, and Aurangzeb's expansion and agrarian/religious crises.",
+                        "Links": "focus on articles",
+                        "articles": [
+                            "https://www.britannica.com/biography/Aurangzeb",
+                            "https://www.clearias.com/mughal-empire-later-mughals/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Maratha Empire and Regional Powers (18th Century)",
+                "difficulty": "High",
+                "definition": "Covers the disintegration of Mughal hegemony and the emergence of regional powers prior to European colonization.",
+                "topics": [
+                    {
+                        "name": "Rise of the Maratha Empire",
+                        "difficulty": "High",
+                        "definition": "Examines Shivaji Maharaj's guerrilla tactics, administration (Ashta Pradhan), and the subsequent expansion under the Peshwas.",
+                        "Links": "https://www.youtube.com/watch?v=0kL910_kX9M",
+                        "articles": [
+                            "https://www.britannica.com/place/Maratha-confederacy",
+                            "https://www.drishtiias.com/to-the-points/paper1/the-marathas"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "quantum computing": {
+        "topic_name": "Quantum Computing",
+        "definition": "Quantum computing is a multidisciplinary field comprising aspects of computer science, physics, and mathematics that utilizes quantum mechanics to solve complex problems faster than on classical computers.",
+        "subtopics": [
+            {
+                "subtopic_name": "Foundational Mathematics & Physics Concepts",
+                "difficulty": "Low",
+                "definition": "Essential mathematical background including linear algebra, complex numbers, and state representation required to comprehend quantum mechanics.",
+                "topics": [
+                    {
+                        "name": "Linear Algebra for Quantum Computing",
+                        "difficulty": "Low",
+                        "definition": "Study of complex vector spaces, state vectors, inner products, matrices, and matrix multiplication essential for describing quantum states and operations.",
+                        "Links": "https://www.youtube.com/watch?v=FLm8_y-a53c",
+                        "articles": [
+                            "https://qiskit.org/textbook/ch-states/linear-algebra-ref.html",
+                            "https://brilliant.org/wiki/linear-algebra-quantum-mechanics/"
+                        ]
+                    },
+                    {
+                        "name": "Complex Numbers and Dirac Notation",
+                        "difficulty": "Low",
+                        "definition": "Understanding complex arithmetic, Euler formula, and Bra-Ket notation used to write and manipulate quantum state vectors.",
+                        "Links": "https://www.youtube.com/watch?v=2e3q41I4JzE",
+                        "articles": [
+                            "https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation",
+                            "https://quantum-computing.ibm.com/composer/docs/iqx/guide/dirac-notation"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Core Quantum Principles",
+                "difficulty": "Medium",
+                "definition": "Fundamental quantum mechanical phenomena that grant quantum computers their unique parallel processing capabilities.",
+                "topics": [
+                    {
+                        "name": "Qubits and Superposition",
+                        "difficulty": "Medium",
+                        "definition": "Exploration of the fundamental unit of quantum information, Bloch sphere representation, and linear combination of basis states.",
+                        "Links": "https://www.youtube.com/watch?v=g_IaVepNDT4",
+                        "articles": [
+                            "https://www.ibm.com/topics/quantum-computing",
+                            "https://uwaterloo.ca/institute-for-quantum-computing/quantum-computing-101"
+                        ]
+                    },
+                    {
+                        "name": "Entanglement and Quantum Measurement",
+                        "difficulty": "Medium",
+                        "definition": "Understanding non-local correlations between qubits, Bell states, quantum measurement postulate, and wavefunction collapse.",
+                        "Links": "https://www.youtube.com/watch?v=zNzzGgr2mhk",
+                        "articles": [
+                            "https://plato.stanford.edu/entries/qt-entangle/",
+                            "https://qiskit.org/textbook/ch-gates/multiple-qubits-entangled-states.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Quantum Circuits and Gate Operations",
+                "difficulty": "Medium",
+                "definition": "The model of quantum computation in which operations are sequences of quantum gates applied to qubits.",
+                "topics": [
+                    {
+                        "name": "Single and Multi-Qubit Gates",
+                        "difficulty": "Medium",
+                        "definition": "Unitary operators including Pauli X, Y, Z, Hadamard, Phase gates, and multi-qubit gates like CNOT and SWAP.",
+                        "Links": "focus on articles",
+                        "articles": [
+                            "https://qiskit.org/textbook/ch-states/single-qubit-gates.html",
+                            "https://quantum-computing.ibm.com/composer/docs/iqx/operations/gates"
+                        ]
+                    },
+                    {
+                        "name": "Quantum Circuit Building",
+                        "difficulty": "Medium",
+                        "definition": "Composing algorithms using quantum circuit diagrams, reversible computation, and quantum measurement instructions.",
+                        "Links": "focus on articles",
+                        "articles": [
+                            "https://qiskit.org/textbook/ch-gates/circuit-basics.html",
+                            "https://arxiv.org/abs/quant-ph/0002077"
+                        ]
+                    }
+                ]
+            },
+            {
+                "subtopic_name": "Quantum Algorithms",
+                "difficulty": "High",
+                "definition": "Algorithms designed to run on quantum hardware that provide provable speedups over the best classical counterparts.",
+                "topics": [
+                    {
+                        "name": "Grover's and Shor's Algorithms",
+                        "difficulty": "High",
+                        "definition": "Detailed study of Grover's quadratic speedup for unstructured search and Shor's polynomial-time prime factorization algorithm.",
+                        "Links": "https://www.youtube.com/watch?v=wU6OzLpM1Jg",
+                        "articles": [
+                            "https://en.wikipedia.org/wiki/Shor%27s_algorithm",
+                            "https://qiskit.org/textbook/ch-algorithms/grover.html"
+                        ]
+                    },
+                    {
+                        "name": "Variational Quantum Algorithms (VQE & QAOA)",
+                        "difficulty": "High",
+                        "definition": "Hybrid quantum-classical algorithms optimized for noisy intermediate-scale quantum (NISQ) devices to solve chemistry and optimization problems.",
+                        "Links": "focus on articles",
+                        "articles": [
+                            "https://arxiv.org/abs/2111.05176",
+                            "https://qiskit.org/textbook/ch-applications/vqe-molecules.html"
                         ]
                     }
                 ]
