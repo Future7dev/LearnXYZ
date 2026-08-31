@@ -3,9 +3,19 @@ import { roadmaps, userProfile } from '../data/mockData';
 
 const AppContext = createContext(null);
 
+const savedUser = (() => {
+  try {
+    const raw = localStorage.getItem('user');
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+})();
+const hasToken = !!localStorage.getItem('token');
+
 const initialState = {
-  user: userProfile,
-  isAuthenticated: false,
+  user: savedUser ? { ...userProfile, ...savedUser } : userProfile,
+  isAuthenticated: hasToken,
   roadmaps: roadmaps,
   topicProgress: {
     'html-basics': 'completed', 'css-basics': 'completed',
@@ -34,9 +44,11 @@ function reducer(state, action) {
     case 'LOGIN':
       return { ...state, isAuthenticated: true, user: { ...state.user, ...action.payload } };
     case 'LOGOUT':
-      return { ...state, isAuthenticated: false };
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      return { ...state, isAuthenticated: false, user: userProfile };
     case 'SIGNUP':
-      return { ...state, isAuthenticated: true, user: { ...state.user, name: action.payload.name, email: action.payload.email } };
+      return { ...state, isAuthenticated: true, user: { ...state.user, ...action.payload } };
     case 'MARK_TOPIC':
       return { ...state, topicProgress: { ...state.topicProgress, [action.payload.id]: action.payload.status } };
     case 'ADD_SYLLABUS':
