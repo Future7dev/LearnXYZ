@@ -263,8 +263,14 @@
 .auth-social-btn {
   justify-content: center;
   gap: var(--space-2);
+  display: inline-flex;
+  align-items: center;
 }
 .auth-social-icon { font-size: 13px; }
+.google-icon {
+  flex-shrink: 0;
+  display: block;
+}
 
 .auth-switch {
   font-size: var(--text-sm);
