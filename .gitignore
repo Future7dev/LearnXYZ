@@ -11,3 +11,12 @@ Frontend/node_modules/
 # Build and logs
 Frontend/dist/
 *.log
+
+# Python / Jupyter
+venv/
+.venv/
+learnenv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
