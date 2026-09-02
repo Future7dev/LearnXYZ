@@ -1067,31 +1067,33 @@
         ],
         "roadmap": {
             "topic_name": "Indian Medieval History",
-            "definition": "A comprehensive study of the political, social, cultural, and economic transformations in the Indian subcontinent from the 8th century to the early 18th century.",
+            "definition": "The historical era of the Indian subcontinent spanning roughly from the 6th century to the 18th century, characterized by the rise and fall of major dynasties, cultural synthesis, and significant socio-economic transformations.",
             "subtopics": [
                 {
                     "subtopic_name": "Early Medieval India (750 - 1200 CE)",
                     "difficulty": "Low",
-                    "definition": "Explores the geopolitical landscape post-Harsha, focusing on the decentralization of power and the rise of major regional dynasties across northern, eastern, and southern India.",
+                    "definition": "This period covers the political fragmentation after the Gupta Empire, highlighting regional powers in Northern, Central, and Southern India before the establishment of Islamic sultanates.",
                     "topics": [
                         {
-                            "name": "Tripartite Struggle",
+                            "name": "The Tripartite Struggle and Northern Dynasties",
                             "difficulty": "Low",
-                            "definition": "The multi-generational conflict between the Gurjara-Pratiharas, Palas, and Rashtrakutas for control over Kanauj and northern India.",
-                            "Links": "https://www.youtube.com/watch?v=X3T2YxZ5C3k",
+                            "definition": "Examines the dynamic conflict between the Palas, Pratiharas, and Rashtrakutas for control over Kanauj and Northern India.",
+                            "Links": "https://www.youtube.com/watch?v=5LIJ4VjVSGE",
                             "articles": [
-                                "https://www.britannica.com/place/India/The-tripartite-struggle-for-Kannauj",
-                                "https://www.jagranjosh.com/general-knowledge/tripartite-struggle-1554898123-1"
+                                "https://en.wikipedia.org/wiki/Tripartite_Struggle",
+                                "https://pendulumedu.com/general-awareness/early-medieval-period-of-india",
+                                "https://www.studocu.com/row/document/universiteti-i-prishtines/ias-accounting/315-history-eng-lesson-8/48380019"
                             ]
                         },
                         {
-                            "name": "The Chola Dynasty",
+                            "name": "The Chola Empire and Southern Kingdoms",
                             "difficulty": "Medium",
-                            "definition": "The rise of the imperial Cholas, their naval expeditions, local self-governance administrative models, and temple architecture.",
-                            "Links": "https://www.youtube.com/watch?v=Jv6ZJ8dG8Xk",
+                            "definition": "Focuses on the administrative excellence, maritime trade, and cultural achievements of the Chola Dynasty in South India.",
+                            "Links": "https://www.youtube.com/watch?v=P4dgAbx4oHE",
                             "articles": [
-                                "https://www.britannica.com/topic/Chola-dynasty",
-                                "https://www.tnarch.gov.in/cholas"
+                                "CAESswEB6zswFUzZYYe8aPjgzvRgVmpn6yEXstGgmqeNAMh_Ho4TAv8KTkQL4G6VnDjuBkkkDEhiUzflvr0yuBcB8OKYcgsRTkmUnglfc-aiEbXfrBdAOGhgZ2daoXkk_ahxvscYu7fz86YuBE11qiEezEIn4cFrr6Vn_C3ledtmnz2C_yUPvo2aWDHOZf5Kjtji2tcNZEY5aoblXFjtfgcGQrYi66dW7FGveVnndJI7reFwcLnxPQ",
+                                "CAESYgHrOzAV7IU4NM0OCm-Y5dj-AtQA3OR4oDbOXafSJNczNi6kDUC0T_zNMn4gFfeLTRZA_3shM55AM2aJ5OREveS2ZkkuCWX1Qm-eJo7iCHn74-ZYAClM_xZ1XzpPyyRuZ1No",
+                                "CAESZwHrOzAVVwaDJMoKkGfhNGwymca-bkn-vQcIEj4h81GulWltx8xnQvxszk7olgzRMjIRpKkskrLrogAuxP0ra3UBP-3xID37BBEr3ijBYNfRyem5dGQEJdGRCh3x2vHIgBT-LVvCrfM"
                             ]
                         }
                     ]
@@ -1099,53 +1101,57 @@
                 {
                     "subtopic_name": "The Delhi Sultanate (1206 - 1526 CE)",
                     "difficulty": "Medium",
-                    "definition": "Covers the establishment and succession of five Islamic dynasties in Delhi, transforming the administrative and cultural fabric of North India.",
+                    "definition": "Covers five successive dynasties that ruled from Delhi, transforming the socio-political landscape and introduction of Indo-Islamic administration.",
                     "topics": [
                         {
                             "name": "Dynasties of Delhi Sultanate",
                             "difficulty": "Medium",
-                            "definition": "An overview of the Mamluk, Khilji, Tughlaq, Sayyid, and Lodi dynasties and their major rulers like Iltutmish, Alauddin Khilji, and Muhammad bin Tughlaq.",
-                            "Links": "https://www.youtube.com/watch?v=8mG5W1vA3qM",
+                            "definition": "Overview of the Slave, Khilji, Tughlaq, Sayyid, and Lodi dynasties, including key rulers like Iltutmish, Alauddin Khilji, and Muhammad bin Tughlaq.",
+                            "Links": "https://www.youtube.com/watch?v=TSHW2_4KOGM",
                             "articles": [
-                                "https://www.britannica.com/place/Delhi-sultanate",
-                                "https://www.historydiscussion.net/history-of-india/delhi-sultanate/12716"
+                                "https://byjus.com/free-ias-prep/sultanate-of-delhi",
+                                "https://www.crazygktrick.com/blog/the-delhi-sultanate-five-dynasties-explained",
+                                "https://en.wikipedia.org/wiki/Delhi_Sultanate"
                             ]
                         },
                         {
-                            "name": "Sultanate Administration and Economy",
+                            "name": "Sultanate Administration, Economy, and Culture",
                             "difficulty": "Medium",
-                            "definition": "Study of the Iqta system, agrarian policies, taxation structures, and socio-economic changes during the Delhi Sultanate era.",
-                            "Links": "focus on articles",
+                            "definition": "An analysis of the Iqta system, revenue administrative models, market reforms, and early Indo-Islamic architectural developments.",
+                            "Links": "https://www.youtube.com/watch?v=TSHW2_4KOGM",
                             "articles": [
-                                "https://www.yourarticlelibrary.com/history/administration-of-delhi-sultanate/46487",
-                                "https://www.jagranjosh.com/general-knowledge/delhi-sultanate-administration-1555068123-1"
+                                "CAESbQHrOzAVhg4VsdrpNfpZFX-1Qb12Fmsng_viOUGVcRUT6qt54Vp673-dgwTZQJfb_NM40Fo6BoAaP96By58xsff2hr7h1gYBKJmMef-HYT-cSGaSV7O5vdQCwmtEmhaslOu-jNVTv98-FEcZ890",
+                                "CAESZwHrOzAVeVYE5egFySrK5212z92YIXES__Nl2CafMUWzXJdtIDFU-6RQtV9dRr7zQmXT2Nqs1ifp80bYxk3CqYCZXiRTe5TBf_itrribRzSsC4_hFa7AL3szszUrYvBkVGCX1IhUCfQ",
+                                "CAESZQHrOzAVqVo8-tVlV7T7Yo5INV_h6kWtmDPdw9rR27vk9GY0rgqrB6C_vcpetIuPSLUoPDeGDJ6w0n3YHvrUTZYllk27ljgiP-eacJ_Koh-7GwgzOIF1UVhgGj3g1p_hU4ye_--N"
                             ]
                         }
                     ]
                 },
                 {
-                    "subtopic_name": "Regional Powers and Religious Movements",
+                    "subtopic_name": "Socio-Religious Movements & Regional Empires",
                     "difficulty": "Medium",
-                    "definition": "Examines the emergence of powerful southern kingdoms alongside major socio-religious reforms that restructured medieval Indian society.",
+                    "definition": "Explores medieval religious revivalism alongside the emergence of strong regional kingdoms in Southern and Western India.",
                     "topics": [
-                        {
-                            "name": "Vijayanagara and Bahmani Kingdoms",
-                            "difficulty": "Medium",
-                            "definition": "The history, conflict, administration, and architectural legacies of the Vijaynagara Empire and the Bahmani Sultanate in South India.",
-                            "Links": "https://www.youtube.com/watch?v=9L9k4d3K5eU",
-                            "articles": [
-                                "https://www.britannica.com/place/Vijayanagar",
-                                "https://www.thehindu.com/opinion/open-page/the-glory-that-was-vijayanagara/article32219803.ece"
-                            ]
-                        },
                         {
                             "name": "Bhakti and Sufi Movements",
                             "difficulty": "Low",
-                            "definition": "Socio-religious movements emphasizing devotion, equality, and mystical union, led by saints like Kabir, Guru Nanak, Mirabai, and Sufi orders.",
-                            "Links": "https://www.youtube.com/watch?v=1A2B3C4D5E6",
+                            "definition": "Covers the egalitarian religious reformations led by medieval saints and mystic Sufi orders across India.",
+                            "Links": "https://www.youtube.com/watch?v=PNpBa2qAzew",
                             "articles": [
-                                "https://www.britannica.com/topic/Bhakti",
-                                "https://www.culturopedia.com/sufism-in-india/"
+                                "https://plutusias.com/bhakti-sufi-movements",
+                                "https://www.scribd.com/document/851579751/Unit-1-2-Bhakti-and-Sufi-movements",
+                                "https://edubirdie.com/docs/monmouth-university/hs-283-the-civilizations-of-asia-indi/133206-bhakti-and-sufi-movement"
+                            ]
+                        },
+                        {
+                            "name": "Vijayanagara and Bahmani Empires",
+                            "difficulty": "Medium",
+                            "definition": "Detailed study of the rival southern powers, their administrative structures, urban architecture, and foreign trade.",
+                            "Links": "https://www.youtube.com/watch?v=DFBwLqV4e5Y",
+                            "articles": [
+                                "https://study.com/academy/lesson/vijayanagar-empire-culture-literature-religion.html",
+                                "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+                                "https://study.com/academy/lesson/vijayanagar-empire-economy-society.html"
                             ]
                         }
                     ]
@@ -1153,43 +1159,57 @@
                 {
                     "subtopic_name": "The Mughal Empire (1526 - 1707 CE)",
                     "difficulty": "High",
-                    "definition": "Focuses on the rise, consolidation, expansion, and administrative excellence of the Mughal dynasty from Babur to Aurangzeb.",
+                    "definition": "Detailed examination of the establishment, consolidation, administrative machinery, and cultural zenith of the Mughal dynasty.",
                     "topics": [
                         {
-                            "name": "Mughal Expansion and Rulers",
+                            "name": "Establishment and Expansion (Babur to Akbar)",
                             "difficulty": "Medium",
-                            "definition": "Political victories, territorial conquests, and governance of key rulers including Babur, Humayun, Akbar, Jahangir, Shah Jahan, and Aurangzeb.",
-                            "Links": "https://www.youtube.com/watch?v=v3v4w5x6y7z",
+                            "definition": "Traces the foundation by Babur, Humayun's struggles, Akbar's conquests, and religious/administrative policy innovations like Din-i-Ilahi.",
+                            "Links": "https://www.youtube.com/watch?v=oPNOFbI8zzM",
                             "articles": [
-                                "https://www.britannica.com/place/Mughal-Empire",
-                                "https://www.history.com/topics/asian-history/mughal-dynasty"
+                                "https://en.wikipedia.org/wiki/Mughal_Empire",
+                                "https://www.studocu.com/en-us/document/north-central-high-school/world-history/mughal-empire-overview-key-leaders-culture-and-economy-ap-world-history/144188903",
+                                "https://www.bbc.co.uk/bitesize/articles/z8jcdnb"
                             ]
                         },
                         {
-                            "name": "Mughal Administration: Mansabdari and Jagirdari",
+                            "name": "Peak Era and Administration (Jahangir to Aurangzeb)",
                             "difficulty": "High",
-                            "definition": "The complex military and civil administrative framework introduced by Akbar to govern a vast and diverse empire effectively.",
-                            "Links": "focus on articles",
+                            "definition": "Covers the reign of Jahangir, Shah Jahan, and Aurangzeb, examining the Mansabdari/Jagirdari systems, architectural milestones, and imperial overextension.",
+                            "Links": "https://www.youtube.com/watch?v=37hz0VKNmzU",
                             "articles": [
-                                "https://www.jagranjosh.com/general-knowledge/mansabdari-system-1555321098-1",
-                                "https://www.thesartorialist.com/history/jagirdari-system-mughal/"
+                                "https://en.wikipedia.org/wiki/Mughal_Empire",
+                                "https://www.vajiraoinstitute.com/upsc-ias-current-affairs/mughal-empire.aspx",
+                                "https://www.britannica.com/topic/Mughal-dynasty"
                             ]
                         }
                     ]
                 },
                 {
-                    "subtopic_name": "The Maratha Empire and Later Medieval Dynamics",
+                    "subtopic_name": "Decline of Mughals & Rise of Marathas",
                     "difficulty": "High",
-                    "definition": "Covers the emergence of the Marathas under Chhatrapati Shivaji Maharaj and the fragmentation of central authority in the 18th century.",
+                    "definition": "Analyzes the disintegration of central imperial authority in the 18th century and the rise of regional powers led by the Marathas.",
                     "topics": [
                         {
-                            "name": "Rise of Chhatrapati Shivaji and Maratha Power",
-                            "difficulty": "High",
-                            "definition": "Military strategies, guerrilla warfare, swarajya concept, and administrative structure of the Maratha state under Shivaji and the Peshwas.",
-                            "Links": "https://www.youtube.com/watch?v=a1b2c3d4e5f",
+                            "name": "The Maratha Empire and Shivaji",
+                            "difficulty": "Medium",
+                            "definition": "Examines the foundation of Maratha Swarajya by Chhatrapati Shivaji Maharaj, guerrilla warfare tactics, and administrative structure.",
+                            "Links": "https://www.youtube.com/watch?v=mDAvWi0_wr8",
                             "articles": [
-                                "https://www.britannica.com/biography/Shivaji",
-                                "https://www.marathahistory.com/shivaji-maharaj-administration"
+                                "https://lotusarise.com/maratha-empire-upsc",
+                                "https://www.ijrar.org/papers/IJRAR19D5722.pdf",
+                                "https://ijfans.org/uploads/paper/41eb984673f56414c56eb56bab153be6.pdf"
+                            ]
+                        },
+                        {
+                            "name": "Decline of Mughal Empire and Successor States",
+                            "difficulty": "High",
+                            "definition": "Covers the internal agrarian crisis, foreign invasions by Nadir Shah and Ahmad Shah Abdali, and the emergence of independent autonomous states.",
+                            "Links": "https://www.youtube.com/watch?v=UaX-tWH1HgM",
+                            "articles": [
+                                "https://educationprovince.com/decline-of-mughal-empire",
+                                "https://www.scribd.com/document/828101571/NOTEBOOK-PLAN18-Cent-Pol-Formations",
+                                "https://en.wikipedia.org/wiki/Decline_of_the_Mughal_Empire"
                             ]
                         }
                     ]
@@ -1199,59 +1219,59 @@
         "quiz": {
             "questions": [
                 {
-                    "question": "Who was the first and only female ruler of the Delhi Sultanate?",
+                    "question": "Who was the founder of the Slave Dynasty in India?",
                     "options": [
-                        "Razia Sultana",
-                        "Chand Bibi",
-                        "Nur Jahan",
-                        "Rani Durgavati"
+                        "Iltutmish",
+                        "Qutb-ud-din Aibak",
+                        "Balban",
+                        "Razia Sultana"
                     ],
-                    "correct_answer": "Razia Sultana",
-                    "explanation": "Razia Sultana ruled the Delhi Sultanate from 1236 to 1240, becoming the first and only female Muslim ruler of the region."
+                    "correct_answer": "Qutb-ud-din Aibak",
+                    "explanation": "Qutb-ud-din Aibak founded the Slave Dynasty (Mamluk Dynasty) in 1206 CE after the death of Muhammad Ghori."
                 },
                 {
-                    "question": "Which Mughal Emperor commissioned the construction of the Taj Mahal?",
-                    "options": [
-                        "Akbar",
-                        "Babur",
-                        "Shah Jahan",
-                        "Aurangzeb"
-                    ],
-                    "correct_answer": "Shah Jahan",
-                    "explanation": "Shah Jahan built the Taj Mahal in Agra between 1631 and 1648 in memory of his favorite wife, Mumtaz Mahal."
-                },
-                {
-                    "question": "The Battle of Khanwa in 1527 was fought between Babur and which ruler?",
+                    "question": "The Battle of Khanwa in 1527 was fought between Mughal Emperor Babur and which Rajput ruler?",
                     "options": [
                         "Rana Sanga",
                         "Maharana Pratap",
-                        "Prithviraj Chauhan",
-                        "Hemu"
+                        "Rana Kumbha",
+                        "Raja Man Singh"
                     ],
                     "correct_answer": "Rana Sanga",
-                    "explanation": "The Battle of Khanwa was fought in 1527 between the founding Mughal emperor Babur and the Rajput ruler Rana Sanga of Mewar."
+                    "explanation": "The Battle of Khanwa was fought in 1527 between Mughal Emperor Babur and Rana Sanga of Mewar, securing Mughal dominance in Northern India."
                 },
                 {
-                    "question": "Who were the founders of the Vijayanagara Empire in South India?",
+                    "question": "Which medieval Indian ruler introduced the system of 'Dagh' (branding of horses) and 'Chehra' (descriptive roll of soldiers)?",
+                    "options": [
+                        "Akbar",
+                        "Alauddin Khilji",
+                        "Firoz Shah Tughlaq",
+                        "Sher Shah Suri"
+                    ],
+                    "correct_answer": "Alauddin Khilji",
+                    "explanation": "Alauddin Khilji introduced the Dagh and Chehra systems to prevent military corruption and ensure army preparedness."
+                },
+                {
+                    "question": "The Vijayanagara Empire was founded in 1336 CE by which two brothers?",
                     "options": [
                         "Harihara I and Bukka Raya I",
-                        "Rajaraja Chola I and Rajendra I",
                         "Krishnadevaraya and Achyuta Deva Raya",
-                        "Pulakeshin II and Vikramaditya I"
+                        "Rama Raya and Tirumala Raya",
+                        "Harihara II and Deva Raya I"
                     ],
                     "correct_answer": "Harihara I and Bukka Raya I",
-                    "explanation": "The Vijayanagara Empire was established in 1336 by two brothers, Harihara I and Bukka Raya I, of the Sangama dynasty."
+                    "explanation": "The Vijayanagara Empire was established in 1336 CE by brothers Harihara I and Bukka Raya I of the Sangama Dynasty along the Tungabhadra River."
                 },
                 {
-                    "question": "Which Delhi Sultanate ruler is famous for introducing strict market control regulations and price control measures?",
+                    "question": "Who was the author of 'Akbarnama' and 'Ain-i-Akbari', the official court history of Emperor Akbar?",
                     "options": [
-                        "Alauddin Khalji",
-                        "Iltutmish",
-                        "Muhammad bin Tughluq",
-                        "Ghiyas ud din Balban"
+                        "Gulbadan Begum",
+                        "Abul Fazl",
+                        "Abdul Qadir Badauni",
+                        "Faizi"
                     ],
-                    "correct_answer": "Alauddin Khalji",
-                    "explanation": "Alauddin Khalji introduced comprehensive market reforms and price controls to maintain a large standing army at low cost."
+                    "correct_answer": "Abul Fazl",
+                    "explanation": "Abul Fazl, one of the Navaratnas in Akbar's court, wrote the Akbarnama, a comprehensive history of Emperor Akbar's reign."
                 }
             ]
         }
