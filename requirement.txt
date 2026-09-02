@@ -4,3 +4,6 @@ langchain-community
 langchain-openai
 python-dotenv
 langchain_google_genai
+pydantic
+requests
+jupyter

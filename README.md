@@ -19,7 +19,7 @@ The platform will eventually provide:
 
 ## Current Implementation
 
-The current version focuses on generating the **learning roadmap**.
+The current version focuses on generating the **learning roadmap** and **interactive quizzes**.
 
 The current workflow is:
 
@@ -28,7 +28,7 @@ User Input
     ↓
 LLM
     ↓
-Structured Roadmap
+Structured Roadmap & Quiz
     ↓
 LangGraph State
     ↓
@@ -130,14 +130,17 @@ The current graph contains:
 ```text
 START
   ↓
-MindMap / Roadmap Node
-  ↓
-JSON Save Node
-  ↓
-END
+MindMap (Roadmap Node)
+  ├──→ YouTube Node
+  ├──→ Article Node
+  └──→ Quiz Node
+         ↓
+    JSON Save Node
+         ↓
+        END
 ```
 
-The planned graph will contain additional nodes for retrieving learning resources.
+The planned graph will contain even more nodes for additional learning resources.
 
 ```text
 START
@@ -162,6 +165,7 @@ The current state contains:
 ```text
 topic
 roadmap
+quiz
 ```
 
 The `topic` represents the user's requested subject.
@@ -214,6 +218,22 @@ Attach Articles to Topics
 
 The article node should use actual search results and URLs rather than relying on the LLM to generate URLs.
 
+## Quiz Node
+
+The Quiz node is responsible for generating assessment questions for the user's topic.
+
+The expected process is:
+
+```text
+Topic Input
+   ↓
+Generate MCQ Questions
+   ↓
+Attach Quiz to State
+```
+
+The quiz node generates 5 questions by default, complete with 4 options, the correct answer, and an explanation. If a user explicitly requests a specific number of questions in their topic (e.g., "History 10 questions"), it generates that exact amount.
+
 ## JSON Storage
 
 The generated roadmap is stored in a JSON file.
@@ -232,16 +252,22 @@ Cloud Computing
 ...
 ```
 
-The JSON will eventually contain the enriched roadmap:
+The JSON will eventually contain the enriched roadmap and quizzes:
 
 ```text
 Topic
- └── Subtopics
-      └── Topics
-           ├── Definition
-           ├── Difficulty
-           ├── Videos
-           └── Articles
+ ├── roadmap
+ │    └── Subtopics
+ │         └── Topics
+ │              ├── Definition
+ │              ├── Difficulty
+ │              ├── Videos
+ │              └── Articles
+ └── quiz
+      └── Questions
+           ├── Options
+           ├── Correct Answer
+           └── Explanation
 ```
 
 ## Responsibilities of Each Node
@@ -282,6 +308,14 @@ Responsible for:
 * Persisting the roadmap
 * Saving the updated roadmap after resources are added
 
+### Quiz Node
+
+Responsible for:
+
+* Generating a multiple-choice quiz based on the user's topic
+* Providing options, answers, and explanations
+* Scaling the number of questions based on user request
+
 ## Development Status
 
 | Component                  | Status            |
@@ -294,7 +328,7 @@ Responsible for:
 | YouTube node               | To be implemented |
 | Article node               | To be implemented |
 | Resource filtering/ranking | To be implemented |
-| Quiz generation            | Planned           |
+| Quiz generation            | Completed         |
 | Progress tracking          | Planned           |
 | Dashboard                  | Planned           |
 
