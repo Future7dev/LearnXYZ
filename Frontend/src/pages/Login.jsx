@@ -4,6 +4,7 @@ import { Eye, EyeOff, Zap, ArrowRight } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import './Auth.css';
 import api from '../api/axios.js';
+import GoogleLoginButton from '../components/GoogleLoginButton';
 
 export default function Login() {
   const { dispatch } = useApp();
@@ -116,12 +117,11 @@ export default function Login() {
 
           <div className="auth-divider"><span>or continue with</span></div>
           <div className="auth-socials">
-            {['Google', 'GitHub'].map(p => (
-              <button key={p} className="btn btn-secondary w-full auth-social-btn" type="button">
-                <span className="auth-social-icon">{p === 'Google' ? '🔵' : '⚫'}</span>
-                {p}
-              </button>
-            ))}
+            <GoogleLoginButton onError={(msg) => setError(msg)} />
+            <button key="GitHub" className="btn btn-secondary w-full auth-social-btn" type="button" onClick={() => setError('GitHub authentication coming soon!')}>
+              <span className="auth-social-icon">⚫</span>
+              <span>GitHub</span>
+            </button>
           </div>
 
           <p className="auth-switch">
